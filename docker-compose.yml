@@ -1,0 +1,57 @@
+version: '3.1' 
+
+services:
+
+  install:
+    container_name: 
+        install
+    build: 
+        .
+    image:
+        socat/install:v${SOCAT_VERSION}
+    volumes:
+        - socat:/var/socat
+        - socat_doc:/var/socat/doc
+        - socat_db:/var/socat/db
+    environment:
+        SOCAT_VERSION: ${SOCAT_VERSION}
+
+  postgres:
+    depends_on:
+        - install
+    container_name: 
+        postgres
+    image:
+        socat/postgres:v${SOCAT_VERSION}
+    build: 
+        ./postgres
+    volumes:
+        - socat_db:/var/lib/postgresql/data
+    ports:
+        - "5432:5432"
+    networks:
+        - socat_net
+
+networks:
+  socat_net:
+        driver: bridge
+
+volumes:
+  socat:
+    driver: local
+    driver_opts:
+      type: none
+      device: ${SOCAT_HOME}
+      o: bind
+  socat_db:
+    driver: local
+    driver_opts:
+      type: none
+      device: ${SOCAT_DB}
+      o: bind
+  socat_doc:
+    driver: local
+    driver_opts:
+      type: none
+      device: ${SOCAT_DOC}
+      o: bind
