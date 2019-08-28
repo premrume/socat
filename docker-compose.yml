@@ -1,7 +1,11 @@
 version: '3.1' 
 
-# Makefile has default variables set
+#
+# IMPORTANT: See README.md for how to use make.  The Makefile has the variables.
+#
+# TODO: What about the volumes (mount points)?   Need a good working example
 
+# Services start here
 services:
 
   install:
@@ -54,6 +58,27 @@ services:
         PGADMIN_DEFAULT_EMAIL: ${POSTGRES_EMAIL}
         PGADMIN_DEFAULT_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
+        - socat_db:/var/lib/postgresql/data
+        - socat_share:/var/share
+    restart:
+        unless-stopped
+    networks:
+        - socat_net
+
+  ui:
+    build: 
+        ./django
+    image:
+        socat/ui:v${SOCAT_VERSION}
+    hostname: 
+        ui
+    depends_on:
+        - postgres
+    ports:
+        - "8000:8000"
+    environment:
+        SOCAT_PORT: ${SOCAT_PORT}
+    volumes:
         - socat_share:/var/share
     restart:
         unless-stopped
@@ -64,6 +89,7 @@ networks:
   socat_net:
         driver: bridge
 
+# TODO:  Hmmm.  Don't like this at all...
 volumes:
   socat_base:
     driver: local

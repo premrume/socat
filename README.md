@@ -1,10 +1,10 @@
 # So Cat
 
 ----
-## What is Socat
+## What is Southern Cat
 > A simple gather ratings app ... 
 
-### Chatter Highlights:
+### Southern Cat Highlights:
 * docker
 * docker-compose
 * db is postgres
@@ -16,19 +16,8 @@ I use Fedora - older version because it works ...
 | docker (i use fedora) | https://docs.docker.com/install/linux/docker-ce/fedora/|
 | docker-compose | https://developer.fedoraproject.org/tools/docker/compose.html|
 
-##  CHATTER
 ----
-### Handy docker commands:
-    docker rmi --force $(docker images -a -q)
-    docker images
-    docker ps
-### Handy docker-compose commands:
-    docker-compose build
-    docker-compose up -d
-    docker-compose run --rm magpie_web bash
-    docker-compose down
-----
-## DO THIS
+## DO THIS!!!!
 
 ### setup local share folder
 If you don't do this, NOTHING will work ... just sayin, don't skip it Tim.
@@ -41,18 +30,19 @@ sudo mkdir /var/landing
 sudo 777 /var/landing
 ```
 
-## AND THIS
+## Now make ...
 
-### Run this once to make to install basics
+### Install:  Run this once to make to standup mount points ... 
 ```sh
 sudo make stand
 ```
 
-### Run this once to start everything
+### Build, run ...
 ```sh
-make
+make crawl walk run
 ```
 
+## IF things went okay ...
 
 ### Postgres/pgadmin
 0.0.0.0:80 (user@domain.com/socat)

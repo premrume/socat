@@ -6,6 +6,7 @@ SOCAT_BASE    ?= /var/landing
 SOCAT_HOME    ?= ${SOCAT_BASE}/socat
 SOCAT_DB      ?= ${SOCAT_HOME}/db
 SOCAT_SHARE   ?= ${SOCAT_HOME}/share
+SOCAT_PORT    ?= 8000
 
 # TODO: (currently at crawl)
 # Obviously, the passwords need to be encrypted yada yada
@@ -17,12 +18,10 @@ POSTGRES_PASSWORD  ?= socat
 POSTGRES_DB        ?= postgres
 POSTGRES_EMAIL     ?= user@domain.com
 
+all:    crawl 
+	@echo "... NO default set" 
 
-all:    crawl walk
-	@echo "... wip"
-
-
-stand:  deepclean install
+stand:  install
 
 crawl:
 	@echo "... crawl"
@@ -33,16 +32,20 @@ walk:
 	@echo "... walk"
 	docker-compose build postgres
 	docker-compose build pgadmin
+	docker-compose build ui
 
 run:
         # one step at a time
-	@echo "... jog"
-	docker-compose up postgres
-	docker-compose up pgadmin
+	@echo "... run, well at least jog"
+	docker-compose up -d postgres
+	docker-compose up -d pgadmin
+	docker-compose up -d ui
 
 install:
 	@echo "... delete local folders"
         # clear local use
+        # TODO:  ya, the db folder needs sudo ... 
+	@echo "... 2nd time this is gonna fail and you'll need to sudo rm"
 	rm -rf ${SOCAT_HOME}  # trash it all
 
 	mkdir -p ${SOCAT_HOME}  
@@ -55,18 +58,21 @@ install:
 deepclean:
         # Beware THIS IS BRUTAL and will kill ALL stuff!!!!!
         #  using this to test 
-	@echo "...deepclean brutal docker clean"
+        #  sudo make deepclean
+	@echo "..."
+
+	rm -rf ${SOCAT_HOME}  # trash it all
 
         # go ham here
 	docker stop $$(docker ps -a -q) || true
 	docker rm $$(docker ps -a -q) || true
 	docker rmi $$(docker images -a -q)  --force || true
-	docker volume rm socat_socat_db     --force    || true
+	docker volume rm socat_socat_db     --force || true
 	docker volume rm socat_socat_share  --force || true
-	docker volume rm socat_socat_base   --force  || true
+	docker volume rm socat_socat_base   --force || true
 
         # I thought this would kill everything... 
-	docker images prune || true
+	docker images prune         || true
 	docker volume prune --force || true
 	docker system prune --force || true
 
