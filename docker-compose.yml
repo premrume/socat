@@ -1,5 +1,7 @@
 version: '3.1' 
 
+# Makefile has default variables set
+
 services:
 
   install:
@@ -10,25 +12,51 @@ services:
     image:
         socat/install:v${SOCAT_VERSION}
     volumes:
-        - socat:/var/socat
-        - socat_doc:/var/socat/doc
+        - socat_base:/var/socat
+        - socat_share:/var/socat/share
         - socat_db:/var/socat/db
-    environment:
+    environment: 
         SOCAT_VERSION: ${SOCAT_VERSION}
 
   postgres:
-    depends_on:
-        - install
-    container_name: 
-        postgres
-    image:
-        socat/postgres:v${SOCAT_VERSION}
     build: 
         ./postgres
-    volumes:
-        - socat_db:/var/lib/postgresql/data
+    image:
+        socat/postgres:v${SOCAT_VERSION}
+    hostname: 
+        postgres
     ports:
         - "5432:5432"
+    environment:
+        POSTGRES_USER: ${POSTGRES_USER}
+        POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+        POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+        - socat_db:/var/lib/postgresql/data
+        - socat_share:/var/share
+    restart:
+        unless-stopped
+    networks:
+        - socat_net
+
+  pgadmin:
+    build: 
+        ./pgadmin
+    image:
+        socat/pgadmin:v${SOCAT_VERSION}
+    hostname: 
+        pgadmin
+    depends_on:
+        - postgres
+    ports:
+        - "80:80"
+    environment:
+        PGADMIN_DEFAULT_EMAIL: ${POSTGRES_EMAIL}
+        PGADMIN_DEFAULT_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+        - socat_share:/var/share
+    restart:
+        unless-stopped
     networks:
         - socat_net
 
@@ -37,7 +65,7 @@ networks:
         driver: bridge
 
 volumes:
-  socat:
+  socat_base:
     driver: local
     driver_opts:
       type: none
@@ -49,9 +77,9 @@ volumes:
       type: none
       device: ${SOCAT_DB}
       o: bind
-  socat_doc:
+  socat_share:
     driver: local
     driver_opts:
       type: none
-      device: ${SOCAT_DOC}
+      device: ${SOCAT_SHARE}
       o: bind

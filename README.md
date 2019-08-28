@@ -28,45 +28,47 @@ I use Fedora - older version because it works ...
     docker-compose run --rm magpie_web bash
     docker-compose down
 ----
-## JUST-RUN-IT
+## DO THIS
 
-### 1. Sanity check that you got the tools (sample below)
+### setup local share folder
+If you don't do this, NOTHING will work ... just sayin, don't skip it Tim.
+```
+# Folder:  /var/landing matches the variable in the ./Makefile
+#          SOCAT_ROOT if you use a different folder, update ./Makefile
+sudo mkdir /var/landing
+# Priv:  Set priv to /var/landing so you can use it.
+#        This is a bit drastic, works for dev
+sudo 777 /var/landing
+```
 
-    [me@localhost socat]$ docker images
-	REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-    [me@localhost socat]$ docker ps
-	CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
-    [me@localhost socat]$ docker volume ls
-	DRIVER              VOLUME NAME
+## AND THIS
 
-### 2. Build (one time deal)
+### Run this once to make to install basics
+```sh
+sudo make stand
+```
 
-    [me@localhost socat]$  cd ./socat
-    [me@localhost socat]$ docker-compose build
+### Run this once to start everything
+```sh
+make
+```
 
-### 3. Run 
-    [me@localhost socat]$ docker-compose up -d
 
-### 4. Sanity Check
-    [me@localhost socat]$ docker volume ls
-    
-### 5. GOTTA INIT THE DB ONE TIME ...
+### Postgres/pgadmin
+0.0.0.0:80 (user@domain.com/socat)
+Connection: 
+	host: postgres 
+        username: postgres
+	password: socat
 
-### 6. GOTO Web browser and open and cross your fingers:
-    http://0.0.0.0:5000
-    
-### 7. Shut things down - DO NOT FORGET TO DO THIS
-    [me@localhost socat]$ docker-compose down
-    
-### 8. Peek at data
-     [me@localhost socat]$ docker volume ls
+### Django
+0.0.0.0:8000
+0.0.0.0:8000/admin (admin/socat)
 
-    # if you want to DELETE the data 
-    # docker volume prune
-        
-### 9. Restart
-    [me@localhost socat]$docker-compose up -d
-    ... goto browser if you did not prune, data persists
-    
-----
-## JUST-DEV-IT
+## MAYBE THIS
+
+### Only run this if you have nothing to loose in your environmnet!
+```sh
+# This is a severe, very severe cleaning of docker
+sudo make deepclean
+```

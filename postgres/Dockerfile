@@ -1,6 +1,5 @@
-FROM postgres:9.6
+FROM postgres:latest
 
-# Set environment variables
-ENV POSTGRES_USER socat
-ENV POSTGRES_PASSWORD $45Manicure
-ENV POSTGRES_DB socat_db
+# This pushes all the shared files
+# COPY ./init_socat.sql /docker-entrypoint-initdb.d
+# I AM AN IDIOT AND DELETED MY SQL FILE

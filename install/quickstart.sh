@@ -1,3 +1,3 @@
 #!/bin/bash -e
 
-./install_doc.sh
+./install_share.sh
