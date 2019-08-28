@@ -1,0 +1,7 @@
+<div class='items'>
+  {% for item in question.item_set.all %}
+    <p class='font-weight-light small'> 
+      ({{item.item_order}}) {{item.item}}
+    </p>
+  {% endfor %}
+</div>

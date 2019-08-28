@@ -1,0 +1,12 @@
+<div class='question'>
+        <div class='list-group-item'>
+          <div>
+             <p class='font-weight-bold'>
+                {{question.question_display}}.  {{question.question}}
+             </p>
+          </div>
+          <div>
+            {% include 'socat/items.html' with question=question %}
+          </div>
+        </div>
+</div>

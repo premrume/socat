@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ questionnaire }}{% endblock title %}
+
+{% block content %}
+<div>
+  <h1>{{ category }} Questions </h1>
+   <table id="table" class="table table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Question</th>
+            </tr>
+        </thead>
+        <tbody>
+           {% for question in category.question.all %}
+            <tr>
+                <td>{{ question.question_display }}</td>
+                <td>{{ question.question }}</td>
+            </tr>
+           {% endfor %}
+        </tbody>
+    </table>
+  </div>
+  {% include 'socat/button_home.html' %}
+</div>
+{% endblock %}
+

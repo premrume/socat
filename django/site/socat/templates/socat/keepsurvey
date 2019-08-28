@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Surveys{% endblock title %}
+
+{% block content %}
+<div class="survey">
+  <h1>Surveys
+  </h1>
+  {% if survey_list %}
+    <div  class="list-group list-group-flush">
+      {% for survey in survey_list %}
+        <a href='{{ survey.get_absolute_url }}'  class='list-group-item list-group-item-action flex-column align-items-start'
+          data-toggle="tooltip" data-placement="right" title="Click to Work with Survey" >
+          <div class="d-flex w-100 justify-content-between">
+              <h5>{{ survey.name }}</h5>
+                {% if survey.state == 'FINAL' %}
+                  <p class="med text-success">
+                     {{ survey.updated }}
+                     {{ survey.state }}
+                  </p>
+                {% else %}
+                  <p class="med text-warning">
+                     {{ survey.updated }}
+                     {{ survey.state }}
+                  </p>
+                {% endif %}
+          </div>
+          <div class="d-flex justify-content-start text-muted small">
+                <p>
+                  {{ survey.questionnaire.questionnaire }}
+                  {{ survey.questionnaire.version }} - 
+                  {{ survey.unit.unit }}
+                </p>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>There are no Surveys defined.</p>
+  {% endif %}
+  {% include 'socat/button_survey.html' %}
+  {% include 'socat/button_home.html' %}
+</div>
+{% endblock %}

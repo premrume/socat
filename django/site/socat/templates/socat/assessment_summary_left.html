@@ -1,0 +1,31 @@
+    <div class="card border-dark mb-3">
+      <div class="card-body">
+        <p class="card-text">
+           <strong><u>{{ survey.unit }} ({{survey.unit.unit_abbrev}})</u></strong>
+           {{ survey.unit.leader_text|linebreaks }}
+           <strong> Country: </strong> {{ survey.unit.country|linebreaks }}
+           <div class="locations">
+             <strong> Location/MGRS: </strong> <br>
+             {{ survey.unit.location_1 }}  {{ survey.unit.mgrs_1 }} <br>
+             {{ survey.unit.location_2 }}  {{ survey.unit.mgrs_2 }} <br>
+             {{ survey.unit.location_3 }}  {{ survey.unit.mgrs_3 }} <br>
+           </div>
+           <strong> Mission: </strong> {{ survey.unit.mission|linebreaks }}
+           <strong> Force: </strong> {{ survey.unit.force|linebreaks }}
+           <strong> Weapons: </strong> {{ survey.unit.weapons|linebreaks }}
+           <strong> Comms: </strong> {{ survey.unit.comms|linebreaks }}
+           <strong> Mobility: </strong> {{ survey.unit.mobility|linebreaks }}
+           <strong> Night Vision/Optics: </strong> {{ survey.unit.night_vision|linebreaks }}
+        </p>
+      </div>
+    </div>
+
+    <div class="card border-dark mb-3">
+      <div class="card-body">
+        <p class="card-text">
+              {% if survey.unit.diagram|length > 0 %}
+                  <img src="{{ survey.unit.diagram }}">
+              {% endif %}
+        </p>
+      </div>
+    </div>

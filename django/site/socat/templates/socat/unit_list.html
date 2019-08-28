@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block title %}Partner Forces{% endblock title %}
+
+{% block content %}
+<div>
+  <h1>Partner Forces</h1>
+  {% if unit_list %}
+   <table id="table" class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Partner Force</th>
+                <th>Abbrev</th>
+                <th>Region</th>
+                <th>Country</th>
+                <th>Date Created</th>
+                <th>Date Updated</th>
+                <th>Surveys</th>
+            </tr>
+        </thead>
+        <tbody>
+           {% for unit in unit_list %}
+            <tr>
+                <td> <a href="{{ unit.get_absolute_url }}"> {{ unit.unit }} </a> </td>
+                <td>{{ unit.unit_abbrev }}</td>
+                <td> {{ unit.region }} </td>
+                <td> {{ unit.country }} </td>
+                <td>{{ unit.created | date:'d-M-Y'}}</td>
+                <td>{{ unit.updated | date:'d-M-Y'}}</td>
+                <td> <a href="{% url 'chart-3' unit_id=unit.id %}"
+                        data-toggle="tooltip" data-placement="right" title="Click for Charts" >
+                     <span class="badge badge-pill badge-primary">{{ unit.count_ }}</span>
+                     </a> 
+                </td>
+            </tr>
+           {% endfor %}
+        </tbody>
+      </table>
+  {% else %}
+    <p>There are no Units defined.</p>
+  {% endif %}
+  {% include 'socat/button_unit.html' %}
+  {% include 'socat/button_home.html' %}
+</div>
+{% endblock %}

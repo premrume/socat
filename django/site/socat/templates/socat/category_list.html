@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}Categories{% endblock title %}
+
+{% block content %}
+<div>
+  <h1>BPC Categories</h1>
+  {% if category_list %}
+   <table id="table" class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Questionnaire</th>
+                <th>Category</th>
+                <th>Date Created</th>
+                <th>Date Updated</th>
+                <th>Questions</th>
+            </tr>
+        </thead>
+        <tbody>
+           {% for category in category_list %}
+            <tr>
+                <td> {{ category.questionnaire }} </a></td>
+                <td> <a href="{{ category.get_absolute_url }}">{{ category.category }}</a></td>
+                <td>{{ category.created | date:'d-M-Y'}}</td>
+                <td>{{ category.updated | date:'d-M-Y'}}</td>
+                <td> <span class="badge badge-pill badge-secondary">{{ category.count_questions }}</span></td>
+            </tr>
+           {% endfor %}
+        </tbody>
+    </table>
+  {% else %}
+    <p>There are no Categories defined.</p>
+    <small class='text-muted'>Hint: Use admin page to define categories</small>
+  {% endif %}
+  {% include 'socat/button_home.html' %}
+</div>
+{% endblock %}

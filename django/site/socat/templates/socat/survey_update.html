@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block extrajs %}
+{{ form.media }}
+{% endblock %}
+
+{% block title %}Surveys{% endblock title %}
+
+{% block content %}
+
+    <h1>Survey</h1>
+    <div class="btn-group btn-group-sm" role="group">
+        <a class="btn btn-primary" role="button" href="{% url 'response' survey_id=survey.id %}">Questions</a>
+        <a class="btn btn-primary" role="button" href="{% url 'capability' survey_id=survey.id %}">Capabilities</a>
+        <a class="btn btn-primary" role="button" href="{% url 'chart-5' survey_id=survey.id %}">Charts</a>
+        <a class="btn btn-primary" role="button" href="{% url 'assessment-summary' survey_id=survey.id %}">Assessment Summary Quad</a>
+        <a class="btn btn-primary" role="button" href="{% url 'assessment-capability' survey_id=survey.id %}">Assessment Summary Capability</a>
+    </div>
+    <br>
+    <br>
+    <h5><strong><u>SURVEY DESCRIPTION</u></strong></h5>
+    <h6><strong>Questionnaire Level:</strong>{{ survey.questionnaire.questionnaire }} ({{ survey.questionnaire.version }})</h6>
+    <h6>
+              <strong>Partner Force      :</strong>
+              <a href="{% url 'unit-update' unit_id=survey.unit.id %}"> 
+              {{ survey.unit.unit }} ({{ survey.unit.unit_abbrev}})
+              </a>
+    </h6>
+    <h6><strong>Survey Created Date:</strong> {{ survey.survey_date }}</h6>
+
+
+    {{ form.media }}
+    <form method="POST" action="{% url 'survey-update'  survey_id=survey.id%}">
+      {% csrf_token %}
+      <div class='form-errors' id='form-errors'>
+       {{ form.non_field_errors }}
+       {{ form.errors }}
+       {{ form.search }}
+       {{ form.search.errors }} 
+      </div>
+      <br>
+      <h5><strong><u>PROCESS STATE</u></strong></h5>
+      <div class="form-row">
+        <div class="form-group col-md-6 mb-0">
+          {{ form.name |as_crispy_field  }}
+        </div>
+        <div class="form-group col-md-6 mb-0">
+          {{ form.state |as_crispy_field  }}
+        </div>
+      </div>
+      <h5><strong><u>DEMOGRAPHIC INFORMATION</u></strong></h5>
+      <div class="form-row">
+        <div class="form-group col-md-6 mb-0">
+            {{ form.first_name| as_crispy_field  }}
+        </div>
+        <div class="form-group col-md-6 mb-0">
+            {{ form.last_name| as_crispy_field  }}
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-3 mb-0">
+            {{ form.reporting| as_crispy_field  }}
+        </div>
+        <div class="form-group col-md-3 mb-0">
+            {{ form.rank| as_crispy_field  }}
+        </div>
+        <div class="form-group col-md-3 mb-0">
+            {{ form.position| as_crispy_field  }}
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6 mb-0">
+            {{ form.prior_aor| as_crispy_field  }}
+        </div>
+        <div class="form-group col-md-6 mb-0">
+            {{ form.prior_engagement| as_crispy_field  }}
+        </div>
+      </div>
+      <h5><strong><u>MISSION</u></strong></h5>
+      <div class="form-row">
+        <div class="form-group col-md-6 mb-0">
+            {{ form.mission_start| as_crispy_field  }}
+        </div>
+        <div class="form-group col-md-6 mb-0">
+            {{ form.mission_end| as_crispy_field  }}
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6 mb-0">
+            {{ form.mission_type| as_crispy_field  }}
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6 mb-0">
+            {{ form.mission_objective| as_crispy_field  }}
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Save</button>
+      <a href="{% url 'index' %}" class="btn btn-primary btn-block" role="button">Cancel</a>
+    </form
+{% endblock %}

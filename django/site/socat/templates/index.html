@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1> 
+{% load staticfiles %}
+<img src={% static "image/Felix.png" %} style="width:2em; height:2em;" class="img-fluid" alt="Responsive image">
+SOCAT Home Page
+</h1>
+
+<div class="card-deck">
+  <div class="card border-dark">
+      <div class="card-header"> 
+            <a href="{% url 'questionnaire-list' %}"><strong>Questionnaires</strong></a>
+      </div>
+      <div class="card-body text-dark">
+        <h6 class="card-title">Defined Sets of Questions/Items</h6>
+        <div class="card-text">
+              <div>
+                   <small> 
+                       <span class="badge badge-pill badge-primary">{{ num_questionnaires }}</span>
+                       Total
+                   </small> 
+              </div>
+        </div>
+      </div>
+      <div class="card-footer">
+            <small>Chart</small>
+            <a href="{% url 'chart-2' %}"
+              data-toggle="tooltip" data-placement="right" title="Count of Questions per Questionnaire" >
+              <small>Questions</small>
+            </a>
+      </div>
+  </div>
+
+  <div class="card border-dark ">
+      <div class="card-header">
+            <a href="{% url 'category-list' %}"><strong>BPC Categories</strong></a>
+      </div>
+      <div class="card-body text-dark">
+        <h6 class="card-title mb-2">Groups of Effects by Questions</h6>
+        <div class="card-text">
+              <div>
+                   <small> 
+                       <span class="badge badge-pill badge-primary">{{ num_categories }}</span>
+                       Total
+                   </small> 
+              </div>
+        </div>
+      </div>
+      <div class="card-footer">
+          <small>Chart</small>
+          <a href="{% url 'chart-4' %}"
+              data-toggle="tooltip" data-placement="right" title="Count of Categories by Questionnaire" >
+              <small>Categories</small>
+          </a>
+      </div>
+  </div>
+
+  <div class="card border-dark ">
+      <div class="card-header">
+         <a href="{% url 'unit-list' %}"><strong>Partner Forces</strong></a>
+      </div>
+      <div class="card-body text-dark">
+        <h6 class="card-title  text-muted">Demographics about a PNU</h6>
+        <div class="card-text">
+              <div>
+                   <small> 
+                       <span class="badge badge-pill badge-primary">{{ num_units }}</span>
+                       Total 
+                   </small> 
+              </div>
+        </div>
+      </div>
+      <div class="card-footer text-muted">
+      </div>
+  </div>
+
+  <div class="card border-dark ">
+      <div class="card-header">
+         <a href="{% url 'survey-list' %}"><strong>Surveys</strong></a>
+      </div>
+      <div class="card-body text-dark">
+        <h6 class="card-title ">Responses to Questionnaires</h6>
+        <div class="card-text">
+              <div>
+                   <small> 
+                       <span class="badge badge-pill badge-primary">{{ num_surveys }}</span>
+                       Total
+                   </small> 
+                  <small class='text-muted'>
+                       <span class="badge badge-pill badge-secondary">{{ num_surveys_draft }}</span>
+                       Draft
+                  </small> 
+                  <small class='text-muted'>
+                       <span class="badge badge-pill badge-secondary">{{ num_surveys_review }}</span>
+                       Review
+                  </small> 
+                  <small class='text-muted'>
+                       <span class="badge badge-pill badge-secondary">{{ num_surveys_final }}</span>
+                       Final
+                  </small> 
+              </div>
+        </div>
+      </div>
+      <div class="card-footer">
+            <small>Chart</small>
+            <a href="{% url 'chart-1' %}"
+                  data-toggle="tooltip" data-placement="right" title="Count of Surveys per Questionnaire" >
+                  <small>Surveys</small>
+            </a>
+      </div>
+  </div>
+</div>
+
+{% endblock %}
