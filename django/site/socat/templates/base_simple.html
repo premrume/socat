@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>{% block title %}{% endblock %}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="{% static 'image/Felix.png' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'DataTables/datatables.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'custom/questionnaire.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/all.min.css' %}">
+    {% block extrahead %}{% endblock %}
+  </head>
+
+  <body>
+    <div class="container-fluid">
+        {% block sidebar %}
+           {% include 'sidebar.html' %}
+        {% endblock %}
+        <div class="content">
+           {% block content %}
+           {% endblock %}
+        </div>
+    </div>
+    <script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery-ui.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/popper.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/pygal.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'DataTables/datatables.min.js' %}"></script>
+    <script type = "text/javascript">
+    $(document).ready(function(){
+        $('#table').DataTable();
+    });
+    </script>
+    {% block extrajs %}{% endblock %}
+</body>
+</html>
+
+

@@ -1,0 +1,22 @@
+{% extends 'base_simple.html' %}
+
+{% block title %}Quad{% endblock title %}
+
+{% block content %}
+<div class="card">
+  <h6 class="card-title display-4 text-right text-bold">{{ survey.updated | date:"M Y"}}</h6>
+  <h5 class="card-title display-4 text-center text-bold">{{ survey.unit.unit_abbrev }} Assessment Summary</h5>
+  <div class="row">
+    <div class="col-sm-4">
+     {% include 'socat/assessment_summary_left.html' %}
+    </div>
+    <div class="col-sm-8">
+     {% include 'socat/assessment_summary_right.html' %}
+    </div>
+  </div>
+</div>
+
+{% include 'socat/button_home.html' %}
+</div>
+{% endblock %}
+

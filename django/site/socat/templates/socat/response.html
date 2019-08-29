@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% load crispy_forms_tags %}
+
+{% block title %}{{survey.name}}{% endblock title %}
+
+{% block content %}
+<div>
+    <h1> {{ survey.questionnaire.questionnaire }} Questionnaire</h1>
+    <h4> Responses for Survey:  <strong> {{ survey.name }}  </strong></h4>
+    <form method='POST' action="{% url 'response' survey_id=survey.id %}" >
+      {% csrf_token %}
+      {{ form|crispy }}
+      <div class='buttons'>
+        <button type="submit" class="btn btn-primary btn-block">Save Responses</button>
+        <a href="{% url 'index' %}" class="btn btn-primary btn-block" role="button" aria-disabled="true">Cancel</a>
+      <div>
+    </form
+</div>
+{% endblock %}

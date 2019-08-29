@@ -1,0 +1,9 @@
+        {% block sidebar %}
+        <div class="sidenav">
+            <a href="{% url 'index' %}">Home</a></li>
+            <a href="{% url 'questionnaire-list' %}">Questionnaires</a></li>
+            <a href="{% url 'category-list' %}">BPC Categories</a></li>
+            <a href="{% url 'unit-list' %}">Partner Forces</a></li>
+            <a href="{% url 'survey-list' %}">Surveys</a></li>
+        </div>
+        {% endblock %}

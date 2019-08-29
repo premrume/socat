@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}Questionnaires{% endblock title %}
+
+{% block content %}
+<div>
+  <h1>Questionnaires</h1>
+  {% if questionnaire_list %}
+   <table id = "table" class = "table table-bordered">
+        <thead>
+            <tr>
+                <th>Questionnaire</th>
+                <th>Version</th>
+                <th>Description</th>
+                <th>Date Created</th>
+                <th>Date Updated</th>
+                <th>Questions</th>
+                <th>Categories</th>
+                <th>Surveys</th>
+            </tr>
+        </thead>
+        <tbody>
+           {% for questionnaire in questionnaire_list %}
+            <tr>
+                <td> <a href="{{ questionnaire.get_absolute_url }}"> {{ questionnaire.questionnaire }} </a></td>
+                <td>{{ questionnaire.version }}</td>
+                <td>{{ questionnaire.description }}</td>
+                <td>{{ questionnaire.created | date:'d-M-Y'}}</td>
+                <td>{{ questionnaire.updated | date:'d-M-Y'}}</td>
+                <td> <span class="badge badge-pill badge-secondary">{{ questionnaire.count_questions }}</span> </td>
+                <td> <span class="badge badge-pill badge-secondary">{{ questionnaire.count_cat }}</span> </td>
+                <td> <span class="badge badge-pill badge-secondary">{{ questionnaire.count_ass }}</span> </td>
+            </tr>
+           {% endfor %}
+        </tbody>
+    </table>
+  {% else %}
+    <p>There are no Questionnaires defined.</p>
+    <small class='text-muted small'>Hint: Use admin page to define questions/items</small>
+  {% endif %}
+  {% include 'socat/button_home.html' %}
+</div>
+{% endblock %}

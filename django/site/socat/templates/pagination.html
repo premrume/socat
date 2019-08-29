@@ -1,0 +1,47 @@
+           {% block pagination %}
+
+            {% if is_paginated %}
+
+            <nav aria-label="navigation" class="mt-2">
+
+              <ul class="pagination">
+
+                {% if page_obj.has_previous %}
+                  <li class="page-item">
+                    <a href="?page={{ page_obj.previous_page_number }}"
+                       class="page-link previous">&laquo; Previous</a>
+                  </li>
+                {% else %}
+                  <li class="page-item disabled">
+                    <span class="page-link previous">&laquo; Previous</span>
+                  </li>
+                {% endif %}
+
+                {% for i in paginator.page_range %}
+                  {% if i == page_obj.number %}
+                    <li class="page-item active">
+                      <span class="page-link">{{ i }}</span>
+                    </li>
+                  {% else %}
+                    <li class="page-item">
+                      <a href="?page={{ i }}" class="page-link">{{ i }}</a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+                {% if page_obj.has_next %}
+                  <li class="page-item">
+                    <a href="?page={{ page_obj.next_page_number }}"
+                       class="page-link next">Next &raquo;</a>
+                  </li>
+                {% else %}
+                  <li class="page-item disabled">
+                    <span class="page-link next">Next &raquo;</span>
+                  </li>
+                {% endif %}
+              </ul>
+
+             </nav>
+
+            {% endif %}
+
+            {% endblock %} 

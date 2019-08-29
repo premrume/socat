@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block extrajs %}
+{{ form.media }}
+{% endblock %}
+
+{% block title %}Surveys{% endblock title %}
+
+{% block content %}
+    <h1>Setup Survey</h1>
+    <h5><strong><u>SURVEY DESCRIPTION </u></strong></h5>
+    {{ form.media }}
+    <form method="POST" action="{% url 'survey-create' %}">
+      {% csrf_token %}
+      <div class='form-errors' id='form-errors'>
+       {{ form.non_field_errors }}
+       {{ form.errors }}
+       {{ form.search }}
+       {{ form.search.errors }} 
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6 mb-0">
+          {{ form.questionnaire |as_crispy_field   }}
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6 mb-0">
+          {{ form.unit |as_crispy_field   }}
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6 mb-0">
+          {{ form.survey_date | as_crispy_field }}
+        </div>
+      </div>
+      <h5><strong><u>DEMOGRAPHIC INFORMATION </u></strong></h5>
+      <div class="form-row">
+        <div class="form-group col-md-6 mb-0">
+            {{ form.first_name| as_crispy_field  }}
+        </div>
+        <div class="form-group col-md-6 mb-0">
+            {{ form.last_name| as_crispy_field  }}
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-4 mb-0">
+            {{ form.reporting| as_crispy_field  }}
+        </div>
+        <div class="form-group col-md-4 mb-0">
+            {{ form.rank| as_crispy_field  }}
+        </div>
+        <div class="form-group col-md-4 mb-0">
+            {{ form.position| as_crispy_field  }}
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6 mb-0">
+            {{ form.prior_aor| as_crispy_field  }}
+        </div>
+        <div class="form-group col-md-6 mb-0">
+            {{ form.prior_engagement| as_crispy_field  }}
+        </div>
+      </div>
+
+      <h5><strong><u>MISSION</u></strong></h5>
+      <div class="form-row">
+        <div class="form-group col-md-6 mb-0">
+            {{ form.mission_start| as_crispy_field  }}
+        </div>
+        <div class="form-group col-md-6 mb-0">
+            {{ form.mission_end| as_crispy_field  }}
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6 mb-0">
+            {{ form.mission_type| as_crispy_field  }}
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6 mb-0">
+            {{ form.mission_objective| as_crispy_field  }}
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block">Save</button>
+      <a href="{% url 'index' %}" class="btn btn-primary btn-block" role="button" aria-disabled="true">Cancel</a>
+
+    </form
+{% endblock %}

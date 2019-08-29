@@ -1,41 +1,82 @@
-.PHONY: all crawl clean deepclean prime 
+.PHONY: all birth crawl walk install
 .EXPORT_ALL_VARIABLES:
 
 SOCAT_VERSION ?= 1.0
-SOCAT_ROOT ?= /var/landing
-SOCAT_HOME ?= ${SOCAT_ROOT}/socat
-SOCAT_DB   ?= ${SOCAT_HOME}/db
-SOCAT_DOC  ?= ${SOCAT_HOME}/doc
+SOCAT_BASE    ?= /var/landing
+SOCAT_HOME    ?= ${SOCAT_BASE}/socat
+SOCAT_DB      ?= ${SOCAT_HOME}/db
+SOCAT_SHARE   ?= ${SOCAT_HOME}/share
+SOCAT_PORT    ?= 8000
 
-all:    crawl 
+# TODO: (currently at crawl)
+# Obviously, the passwords need to be encrypted yada yada
+# These variables passed both to the postgres and postgres_admin images
+# Currently hardcoded in the socat jdango
+# Beware:  The docker images are inconsistent with these variables.
+POSTGRES_USER      ?= postgres
+POSTGRES_PASSWORD  ?= socat
+POSTGRES_DB        ?= postgres
+POSTGRES_EMAIL     ?= user@domain.com
 
-prime:  crawl clean deepclean
-	@echo "... prime"
-        # I like to keep the data outside of docker install
-	mkdir -p ${SOCAT_HOME}
-	mkdir -p ${SOCAT_DB}
-	mkdir -p ${SOCAT_DOC}
-	@docker-compose build install
-	@docker-compose up --force-recreate  install
+all:    deepclean stand crawl walk run
+	@echo "... NO default set" 
+
+stand:  install
 
 crawl:
 	@echo "... crawl"
 	@echo "Version ${SOCAT_VERSION}"
 
-clean:
-	@echo "...clean"
-	docker stop $$(docker ps -aq) || true
-	docker rm $$(docker ps -aq) || true
+walk:   
+        # using to test step by step
+	@echo "... walk"
+	docker-compose build postgres
+	docker-compose build pgadmin
+	docker-compose build web
+
+run:
+        # one step at a time
+	@echo "... run, well at least jog"
+	docker-compose up -d postgres
+	docker-compose up -d pgadmin
+	docker-compose up -d web
+
+install:
+	@echo "... delete local folders"
+        # clear local use
+        # TODO:  ya, the db folder needs sudo ... 
+	@echo "... 2nd time this is gonna fail and you'll need to sudo rm"
+	rm -rf ${SOCAT_HOME}  # trash it all
+
+	mkdir -p ${SOCAT_HOME}  
+	mkdir -p ${SOCAT_DB}   
+	mkdir -p ${SOCAT_SHARE}
+
+	docker-compose build install
+	docker-compose up --force-recreate  install
 
 deepclean:
-	@echo "...deepclean"
-	docker volume prune || true
-	docker volume rm $$(docker volume ls -q | grep socat) || true
-	docker rmi $$(docker images -q) || true
-	docker rmi $$(docker images -q --filter "dangling=true") || true
-	rm -rf ${SOCAT_HOME} || true
-	rm -rf ${SOCAT_DB} || true
-	rm -rf ${SOCAT_DOC} || true
+        # Beware THIS IS BRUTAL and will kill ALL stuff!!!!!
+        #  using this to test 
+        #  sudo make deepclean
+	@echo "..."
+
+	rm -rf ${SOCAT_HOME}  # trash it all
+
+        # go ham here
+	docker stop $$(docker ps -a -q) || true
+	docker rm $$(docker ps -a -q) || true
+	docker rmi $$(docker images -a -q)  --force || true
+	docker volume rm socat_socat_db     --force || true
+	docker volume rm socat_socat_share  --force || true
+	docker volume rm socat_socat_base   --force || true
+
+        # I thought this would kill everything... 
+	docker images prune         || true
+	docker volume prune --force || true
+	docker system prune --force || true
+
+
 
 devdown:
 	docker-compose down --rmi all --volumes

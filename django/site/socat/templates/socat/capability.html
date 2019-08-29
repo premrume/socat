@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% load crispy_forms_tags %}
+
+{% block title %}{{survey.name}}{% endblock title %}
+
+{% block content %}
+<div'>
+    <h1> Survey {{ survey.name }} Capabilities </h1>
+    <h4> <strong>{{ survey.unit.unit }} ({{ survey.unit.unit_abbrev }}) <strong></h4>
+    <h6 class='text-success'>Provide significant comments for each category. Use the provided text of desired information to guide responses.</h6>
+    <br>
+    <form method='POST' action="{% url 'capability' survey_id=survey.id %}" >
+      {% csrf_token %}
+      {% for field in form %}
+         <p>
+            {{ field.label_tag }}
+            {% if field.help_text %}
+               <small style="color: green">{{ field.help_text|linebreaks }}</small>
+            {% else %}
+               <br>
+            {% endif %}
+            {{ field }}
+            {% for error in field.errors %}
+               <p style="color: red">{{ error }}</p>
+            {% endfor %}
+         </p>
+      {% endfor %}
+      <div class='buttons'>
+        <button type="submit" class="btn btn-primary btn-block">Save Capabilities</button>
+        <a href="{% url 'survey-update' survey_id=survey.id %}" class="btn btn-primary btn-block" role="button" aria-disabled="true">Cancel</a>
+      <div>
+    </form
+</div>
+{% endblock %}

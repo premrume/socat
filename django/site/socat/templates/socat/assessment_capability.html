@@ -1,0 +1,63 @@
+{% extends 'base_simple.html' %}
+
+{% block title %}Ratings{% endblock title %}
+
+{% block content %}
+   <h6 class="card-title display-4 text-right">{{ survey.updated | date:"M Y"}}</h6>
+   <h5 class="card-title display-4 text-center text-bold">{{ survey.unit.unit_abbrev }} Assessment Ratings and Capabilities</h5>
+   <table class="table table-bordered">
+      <thead class="text-light bg-dark">
+        <tr>
+          <th scope="col">Capabilities</th>
+          <th scope="col">Rating {{ survey.updated | date:"M Y" }}</th>
+          <th scope="col">Observation</th>
+        </tr>
+      </thead>
+      <tbody class="bg-secondary">
+        {% for capability in capability_list %}
+        <tr class="bg-light">
+          <td>{{ capability.category }}</td>
+          {% if capability.average >= 67 %}
+          <td class="bg-success">{{ capability.average }}</td>
+          {% elif capability.average >= 34 and capability.average <= 66 %}
+          <td class="bg-warning">{{ capability.average }}</td>
+          {% else  %}
+          <td class="bg-danger">{{ capability.average }}</td>
+          {% endif %}
+          <td>{{ capability.observation | linebreaks }}</td>
+        </tr>
+        {% endfor %}
+        <tr class="bg-dark">
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Overall Rating Focused on End State</td>
+          {% if end_stage >= 67 %}
+          <td class="bg-success">{{ end_state}}</td>
+          {% elif end_state >= 34 and end_state <= 66 %}
+          <td class="bg-warning">{{ end_state }}</td>
+          {% else  %}
+          <td class="bg-danger">{{ end_state }}</td>
+          {% endif %}
+          <td>{{ survey.end_state }} </td>
+        </tr>
+        <tr>
+          <td>Capability Gaps Focused Focused on End State</td>
+          <td></td>
+          <td>{{ survey.gaps }}</td>
+        </tr>
+      </tbody>
+   </table>
+   <table class="table table-bordered table-sm">
+      <tbody>
+        <tr>
+         <td class="bg-danger" > 0  - 33  Non-Mission Capable </td>
+         <td class="bg-warning"> 34 - 66  Partially Mission Capable </td>
+         <td class="bg-success"> 67 - 100 Fully Mission Capable </td>
+        </tr>
+      </tbody>
+   </table>
+
+{% endblock %}
