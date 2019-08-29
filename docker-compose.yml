@@ -65,13 +65,13 @@ services:
     networks:
         - socat_net
 
-  ui:
+  web:
     build: 
         ./django
     image:
-        socat/ui:v${SOCAT_VERSION}
+        socat/web:v${SOCAT_VERSION}
     hostname: 
-        ui
+        web
     depends_on:
         - postgres
     ports:
@@ -80,6 +80,11 @@ services:
         SOCAT_PORT: ${SOCAT_PORT}
     volumes:
         - socat_share:/var/share
+        - .:/var/www/socat
+    stdin_open: 
+        true
+    tty: 
+        true
     restart:
         unless-stopped
     networks:

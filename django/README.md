@@ -150,4 +150,15 @@ Traceback (most recent call last):
 ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?
 
 ```
-
+# DEV NOTES...
+```
+  pip install -r requirements.txt
+  cd site
+  python manage.py makemigrations
+  python manage.py migrate
+  #python manage.py createsuperuser
+  echo "from django.contrib.auth.models import User; User.objects.create_superuser('admin', 'admin@example.com', 'socat')" | python manage.py shell
+  python manage.py makemigrations socat
+  python manage.py migrate socat
+  python manage.py runserver 0.0.0.0:8000
+```

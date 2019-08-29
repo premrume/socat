@@ -18,7 +18,7 @@ POSTGRES_PASSWORD  ?= socat
 POSTGRES_DB        ?= postgres
 POSTGRES_EMAIL     ?= user@domain.com
 
-all:    crawl 
+all:    deepclean stand crawl walk run
 	@echo "... NO default set" 
 
 stand:  install
@@ -32,14 +32,14 @@ walk:
 	@echo "... walk"
 	docker-compose build postgres
 	docker-compose build pgadmin
-	docker-compose build ui
+	docker-compose build web
 
 run:
         # one step at a time
 	@echo "... run, well at least jog"
 	docker-compose up -d postgres
 	docker-compose up -d pgadmin
-	docker-compose up -d ui
+	docker-compose up -d web
 
 install:
 	@echo "... delete local folders"
