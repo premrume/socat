@@ -15,18 +15,22 @@ RUN apt-get install -y \
     vim
 
 # Project Files and Settings
-# very basic ... nothing fancy AT ALL
-# Project Files and Settings
+# TODO
 #ARG PROJECT=socat
 #ARG PROJECT_DIR=/var/www/${PROJECT}
 #RUN mkdir -p $PROJECT_DIR
 #WORKDIR $PROJECT_DIR
 
+# Need install stuff...
 COPY ./requirements.txt .
 RUN pip install -r requirements.txt
 
+# Need site stuff
 COPY ./site/ ./
 RUN ls -la /*
+
+# TODO: learning about static files ...
+RUN mkdir /socsouth/static
 RUN ./deploy_static.sh 
 
 # Server

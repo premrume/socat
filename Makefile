@@ -18,10 +18,8 @@ POSTGRES_PASSWORD  ?= socat
 POSTGRES_DB        ?= postgres
 POSTGRES_EMAIL     ?= user@domain.com
 
-all:    deepclean stand crawl walk run
-	@echo "... NO default set" 
-
-stand:  install
+all:    stand crawl walk run dance
+	@echo "... danced" 
 
 crawl:
 	@echo "... crawl"
@@ -32,20 +30,23 @@ walk:
 	@echo "... walk"
 	docker-compose build postgres
 	docker-compose build pgadmin
-	docker-compose build web
 
 run:
         # one step at a time
 	@echo "... run, well at least jog"
 	docker-compose up -d postgres
 	docker-compose up -d pgadmin
+
+dance:
+	docker-compose build web
 	docker-compose up -d web
 
-install:
+stand:
 	@echo "... delete local folders"
         # clear local use
         # TODO:  ya, the db folder needs sudo ... 
-	@echo "... 2nd time this is gonna fail and you'll need to sudo rm"
+	@echo "... 2nd time this is gonna fail and you'll need to :sudo rm"
+	@echo "... sudo make stand"
 	rm -rf ${SOCAT_HOME}  # trash it all
 
 	mkdir -p ${SOCAT_HOME}  
