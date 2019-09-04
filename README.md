@@ -2,63 +2,57 @@
 
 ----
 ## What is Southern Cat
-> A simple gather ratings app ... 
+> A simple ratings app ...  
+> Development work in progress...
+
+## Prereq's
 
 ### Southern Cat Highlights:
 * docker
 * docker-compose
 * db is postgres
 
-## Prereq's
-I use Fedora - older version because it works ...
+### I use Fedora - older version because it works ...
 | Plugin | README |
 | ------ | ------ |
 | docker (i use fedora) | https://docs.docker.com/install/linux/docker-ce/fedora/|
 | docker-compose | https://developer.fedoraproject.org/tools/docker/compose.html|
 
-----
 ## DO THIS!!!!
 
-### setup local share folder
+### local share folder
 If you don't do this, NOTHING will work ... just sayin, don't skip it Tim.
 ```
-# Folder:  /var/landing matches the variable in the ./Makefile
-#          SOCAT_ROOT if you use a different folder, update ./Makefile
+# See ./Makefile SOCAT_ROOT=/var/landing
 sudo mkdir /var/landing
-# Priv:  Set priv to /var/landing so you can use it.
-#        This is a bit drastic, works for dev
+# Drastic, works for dev
 sudo 777 /var/landing
 ```
 
-## Now make ...
-
-### Install:  Run this once to make to standup mount points ... 
+## Install, build, run ...
 ```sh
-sudo make stand
+make
 ```
-
-### Build, run ...
-```sh
-make crawl walk run
-```
-
 ## IF things went okay ...
 
-### Postgres/pgadmin
-0.0.0.0:80 (user@domain.com/socat)
-Connection: 
-	host: postgres 
-        username: postgres
-	password: socat
+### Postgres/pgadmin:
+## browser: http://0.0.0.0:80 
+>user@domain.com
+>socat
+## Postgres connection:
+>host: postgres 
+>username: postgres
+>password: socat
 
-### Django
-0.0.0.0:8000
-0.0.0.0:8000/admin (admin/socat)
+### Web Django
+## browser user 0.0.0.0:8000
+## browser admin 0.0.0.0:8000/admin
+>admin
+>socat
 
-## MAYBE THIS
-
-### Only run this if you have nothing to loose in your environmnet!
+## FYI
+### Only run this if you have nothing to loose in your environment!
 ```sh
-# This is a severe, very severe cleaning of docker
+# This is a severe, very severe cleaning of docker and friends...
 sudo make deepclean
 ```
