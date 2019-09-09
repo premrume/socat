@@ -31,20 +31,18 @@ make
 ```
 ## 4. IF things went okay ...
 Verify that Postgres is alive
-### Postgres/pgadmin:
-## browser: http://0.0.0.0:80 
+### browser: http://0.0.0.0:80 
 >user@domain.com
 >socat
-## Postgres connection:
+### Postgres connection:
 >host: postgres 
 >username: postgres
 >password: socat
 
 ## 5. IF things went okay...
 Verify Web pages (admin and user)
-### Web Django
-## browser for user http://0.0.0.0:8000
-## browser for admin http://0.0.0.0:8000/admin
+### browser for user http://0.0.0.0:8000
+### browser for admin http://0.0.0.0:8000/admin
 >admin
 >socat
 
