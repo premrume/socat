@@ -5,9 +5,7 @@
 > A simple ratings app ...  
 > Development work in progress...
 
-## PREREQUISITE
-
-### TOOLS:
+## 1.  PREREQUISITES
 * docker
 * docker-compose
 * git
@@ -18,8 +16,7 @@
 | docker (i use fedora) | https://docs.docker.com/install/linux/docker-ce/fedora/|
 | docker-compose | https://developer.fedoraproject.org/tools/docker/compose.html|
 
-## SETUP VOLUME
-### LOCAL
+## 2. SETUP LOCAL VOLUME
 If you don't do this, NOTHING will work ... just sayin, don't skip it Tim.
 ```
 # See ./Makefile SOCAT_ROOT=/var/landing
@@ -28,12 +25,12 @@ sudo mkdir /var/landing
 sudo 777 /var/landing
 ```
 
-## INSTALL,BUILD,RUN
+## 3. INSTALL,BUILD,RUN (make)
 ```sh
 make
 ```
-## IF things went okay ...
-
+## 4. IF things went okay ...
+Verify that Postgres is alive
 ### Postgres/pgadmin:
 ## browser: http://0.0.0.0:80 
 >user@domain.com
@@ -43,6 +40,8 @@ make
 >username: postgres
 >password: socat
 
+## 5. IF things went okay...
+Verify Web pages (admin and user)
 ### Web Django
 ## browser for user http://0.0.0.0:8000
 ## browser for admin http://0.0.0.0:8000/admin
