@@ -5,22 +5,21 @@
 > A simple ratings app ...  
 > Development work in progress...
 
-## Prereq's
+## PREREQUISITE
 
-### Southern Cat Highlights:
+### TOOLS:
 * docker
 * docker-compose
-* db is postgres
+* git
 
-### I use Fedora - older version because it works ...
+### Docker notes
 | Plugin | README |
 | ------ | ------ |
 | docker (i use fedora) | https://docs.docker.com/install/linux/docker-ce/fedora/|
 | docker-compose | https://developer.fedoraproject.org/tools/docker/compose.html|
 
-## DO THIS!!!!
-
-### local share folder
+## SETUP VOLUME
+### LOCAL
 If you don't do this, NOTHING will work ... just sayin, don't skip it Tim.
 ```
 # See ./Makefile SOCAT_ROOT=/var/landing
@@ -29,7 +28,7 @@ sudo mkdir /var/landing
 sudo 777 /var/landing
 ```
 
-## Install, build, run ...
+## INSTALL,BUILD,RUN
 ```sh
 make
 ```
@@ -45,14 +44,14 @@ make
 >password: socat
 
 ### Web Django
-## browser user 0.0.0.0:8000
-## browser admin 0.0.0.0:8000/admin
+## browser for user http://0.0.0.0:8000
+## browser for admin http://0.0.0.0:8000/admin
 >admin
 >socat
 
 ## FYI
 ### Only run this if you have nothing to loose in your environment!
 ```sh
-# This is a severe, very severe cleaning of docker and friends...
+# This is a severe, very severe cleaning of docker and volume...
 sudo make deepclean
 ```
