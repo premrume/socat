@@ -14,7 +14,7 @@ SOCAT Home Page
             <a href="{% url 'questionnaire-list' %}"><strong>Questionnaires</strong></a>
       </div>
       <div class="card-body text-dark">
-        <h6 class="card-title">Defined Sets of Questions/Items</h6>
+        <h6 class="card-title text-muted">Sets of Questions</h6>
         <div class="card-text">
               <div>
                    <small> 
@@ -35,10 +35,10 @@ SOCAT Home Page
 
   <div class="card border-dark ">
       <div class="card-header">
-            <a href="{% url 'category-list' %}"><strong>BPC Categories</strong></a>
+            <a href="{% url 'category-list' %}"><strong>Categories</strong></a>
       </div>
       <div class="card-body text-dark">
-        <h6 class="card-title mb-2">Groups of Effects by Questions</h6>
+        <h6 class="card-title text-muted">Groups of Questions by Effect</h6>
         <div class="card-text">
               <div>
                    <small> 
@@ -81,25 +81,29 @@ SOCAT Home Page
          <a href="{% url 'survey-list' %}"><strong>Surveys</strong></a>
       </div>
       <div class="card-body text-dark">
-        <h6 class="card-title ">Responses to Questionnaires</h6>
+        <h6 class="card-title text-muted">Responses to Questionnaires</h6>
         <div class="card-text">
               <div>
-                   <small> 
+                  <small> 
                        <span class="badge badge-pill badge-primary">{{ num_surveys }}</span>
                        Total
-                   </small> 
+                  </small> 
+                  </br>
                   <small class='text-muted'>
                        <span class="badge badge-pill badge-secondary">{{ num_surveys_draft }}</span>
                        Draft
                   </small> 
+                  </br>
                   <small class='text-muted'>
                        <span class="badge badge-pill badge-secondary">{{ num_surveys_review }}</span>
                        Review
                   </small> 
+                  </br>
                   <small class='text-muted'>
                        <span class="badge badge-pill badge-secondary">{{ num_surveys_final }}</span>
                        Final
                   </small> 
+                  </br>
               </div>
         </div>
       </div>

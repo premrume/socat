@@ -7,7 +7,7 @@ class CategoryList(generic.ListView):
     model = Category
     template_name = 'socat/category_list.html'
     def get_queryset(self):
-        return Category.objects.annotate(count_questions=Count('question'))
+        return Category.objects.annotate(count_questions=Count('question')).order_by('questionnaire')
 
 class CategoryDetail(generic.DetailView):
     model = Category
