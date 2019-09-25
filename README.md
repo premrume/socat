@@ -27,6 +27,8 @@ sudo 777 /var/landing
 
 ## 3. INSTALL,BUILD,RUN (make)
 ```sh
+cd
+cd socat
 make
 ```
 ## 4. IF things went okay ...
