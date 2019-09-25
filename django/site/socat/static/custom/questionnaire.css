@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+}
+
+/* Remove the bullets */
+ul {
+    list-style-type: none;
+}
+
+/* AF Blue with rounded edges */
+h1 {
+    background-color: #5d8aa8;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  background-color: #5d8aa8;
+  border-radius: 5px;
+}
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: #5d8aa8;
+  font-weight: bold;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+
+.fieldWrapper {
+  text-align: left;
+  margin: 0px px 0px 0px;
+}
+
+.labelWrapper {
+  margin: 0px 0px 0px 0px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.errorlist {
+  margin: 20px 20px 20px 20px;
+  text-align: left;
+  font-weight: bold;
+  color: red;
+}
+
+.error input, .error select {
+border: 2px red solid;
+}
+
+.btn {
+  background-color: #5d8aa8;
+}
+
+.question{
+  font-weight: bold;
+  border: 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.narrative{
+  border: 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.asteriskField {
+  color: red;
+  font-weight: bold;
+}
+
+.create {
+  font-weight: bold;
+}
+
+.response_create {
+  color: black;
+  font-weight: bold;
+  font-size: small;
+}
+
+.response_create .form-check-label {
+  color: black;
+  font-size: x-small;
+}
+
+.response_update {
+  color: black;
+  font-weight: bold;
+  font-size: small;
+}
+
+.response_update .form-check-label {
+  color: black;
+  font-size: x-small;
+}
