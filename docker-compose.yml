@@ -1,9 +1,9 @@
 version: '3.1' 
 
 #
-# IMPORTANT: See README.md for how to use make.  The Makefile has the variables.
-#
-# TODO: What about the volumes (mount points)?   Need a good working example
+# IMPORTANT: See README.md for how to use make.  
+# The Makefile has the variables.
+# TODO: What about the volumes (mount points)?
 
 # Services start here
 services:

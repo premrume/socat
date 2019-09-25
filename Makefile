@@ -46,6 +46,7 @@ stand:
         # clear local use
         # TODO:  ya, the db folder needs sudo ... 
 	@echo "... 2nd time this is gonna fail and you'll need to :sudo rm"
+	@echo ""
 	@echo "... sudo make stand"
 	rm -rf ${SOCAT_HOME}  # trash it all
 
@@ -76,8 +77,6 @@ deepclean:
 	docker images prune         || true
 	docker volume prune --force || true
 	docker system prune --force || true
-
-
 
 devdown:
 	docker-compose down --rmi all --volumes
