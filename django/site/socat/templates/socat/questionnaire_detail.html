@@ -4,7 +4,7 @@
 
 {% block content %}
 <div class='questionnaire'>
-  <h1>{{ questionnaire|capfirst }} Questionnaire View</h1>
+  <h1>View of {{ questionnaire|capfirst }} Questionnaire</h1>
   <div class='list-group list-group-flush'>
     {% for question in questionnaire.question_set.all %}
         {% include 'socat/question.html' with question=question %}

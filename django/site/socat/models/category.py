@@ -41,8 +41,8 @@ class Category(models.Model):
 
     # Metadata
     class Meta: 
-        ordering = ['questionnaire', 'category_order']
-        verbose_name_plural = "categories"
+        ordering = ['questionnaire', 'category']
+        verbose_name_plural = 'categories'
 
     def __str__(self):
         return f'{self.category}'

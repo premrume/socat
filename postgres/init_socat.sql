@@ -1169,24 +1169,24 @@ COPY public.socat_capability (id, created, updated, observation, category_id, su
 --
 
 COPY public.socat_category (id, created, updated, category, observation_help, category_order, questionnaire_id) FROM stdin;
-1	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Operational effects / Operational Skills	todo	1	1
-2	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Readiness / Alert posture	todo	2	1
+1	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Operational Effects / Operational Skills	todo	1	1
+2	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Readiness / Alert Posture	todo	2	1
 3	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Planning / Intellegince / Targeting	todo	3	1
-4	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment training / Professionalism	todo	4	1
+4	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Training / Professionalism	todo	4	1
 5	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Communications / Command and Control	todo	5	1
 6	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Logistics	todo	6	1
 7	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Medical	todo	7	1
-8	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Operational effects / Operational Skills	todo	8	1
-9	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Readiness / Alert posture	todo	1	3
-10	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Planning / Intellegince / Targeting	todo	2	3
-11	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment training / Professionalism	todo	3	3
-12	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Communications / Command and Control	todo	4	3
-13	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Logistics	todo	5	3
-14	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Medical	todo	6	3
-15	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Operational effects / Operational Skills	todo	1	2
-16	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Readiness / Alert posture	todo	2	2
+8	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Operational Effects / Operational Skills	todo	1	3
+9	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Readiness / Alert Posture	todo	2	3
+10	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Planning / Intellegince / Targeting	todo	3	3
+11	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Training / Professionalism	todo	4	3
+12	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Communications / Command and Control	todo	5	3
+13	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Logistics	todo	6	3
+14	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Medical	todo	7	3
+15	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Operational Effects / Operational Skills	todo	1	2
+16	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Readiness / Alert Posture	todo	2	2
 17	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Planning / Intellegince / Targeting	todo	3	2
-18	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment training / Professionalism	todo	4	2
+18	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Training / Professionalism	todo	4	2
 19	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Communications / Command and Control	todo	5	2
 20	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Logistics	todo	6	2
 21	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Medical	todo	7	2

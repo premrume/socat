@@ -46,7 +46,7 @@ Verify Web pages (admin and user)
 ### browser for user http://0.0.0.0:8000
 ### browser for admin http://0.0.0.0:8000/admin
 >admin
->socat
+>admin
 
 ## FYI
 ### Only run this if you have nothing to loose in your environment!
@@ -54,3 +54,10 @@ Verify Web pages (admin and user)
 # This is a severe, very severe cleaning of docker and volume...
 sudo make deepclean
 ```
+## DB Notes
+### Initial data
+>Initial data:  postgres/init_socat.sql
+### Modify data thru postgres browser http://0.0.0.0:80
+>Refer to 4. above
+### Modify data thru django browser http://0.0.0.0:8000/admin
+>Refer to 5. above
