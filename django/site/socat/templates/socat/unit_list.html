@@ -4,7 +4,7 @@
 
 {% block content %}
 <div>
-  <h1>Partner Forces</h1>
+  <h1>List of Partner Forces</h1>
   {% if unit_list %}
    <table id="table" class="table table-bordered">
         <thead>
@@ -37,7 +37,7 @@
         </tbody>
       </table>
   {% else %}
-    <p>There are no Units defined.</p>
+    <p>There are no Partner Forces defined.</p>
   {% endif %}
   {% include 'socat/button_unit.html' %}
   {% include 'socat/button_home.html' %}
