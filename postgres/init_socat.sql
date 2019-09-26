@@ -1169,27 +1169,27 @@ COPY public.socat_capability (id, created, updated, observation, category_id, su
 --
 
 COPY public.socat_category (id, created, updated, category, observation_help, category_order, questionnaire_id) FROM stdin;
-1	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Operational Effects / Operational Skills	todo	1	1
-2	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Readiness / Alert Posture	todo	2	1
-3	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Planning / Intellegince / Targeting	todo	3	1
-4	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Training / Professionalism	todo	4	1
-5	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Communications / Command and Control	todo	5	1
-6	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Logistics	todo	6	1
-7	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Medical	todo	7	1
-8	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Operational Effects / Operational Skills	todo	1	3
-9	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Readiness / Alert Posture	todo	2	3
-10	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Planning / Intellegince / Targeting	todo	3	3
-11	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Training / Professionalism	todo	4	3
-12	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Communications / Command and Control	todo	5	3
-13	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Logistics	todo	6	3
-14	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Medical	todo	7	3
-15	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Operational Effects / Operational Skills	todo	1	2
-16	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Readiness / Alert Posture	todo	2	2
-17	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Planning / Intellegince / Targeting	todo	3	2
-18	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Training / Professionalism	todo	4	2
-19	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Communications / Command and Control	todo	5	2
-20	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Logistics	todo	6	2
-21	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Medical	todo	7	2
+1	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Operational Effects / Operational Skills	HelpText	1	1
+2	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Readiness / Alert Posture	HelpText	2	1
+3	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Planning / Intellegince / Targeting	HelpText	3	1
+4	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Training / Professionalism	HelpText	4	1
+5	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Communications / Command and Control	HelpText	5	1
+6	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Logistics	HelpText	6	1
+7	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Medical	HelpText	7	1
+8	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Operational Effects / Operational Skills	HelpText	1	3
+9	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Readiness / Alert Posture	HelpText	2	3
+10	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Planning / Intellegince / Targeting	HelpText	3	3
+11	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Training / Professionalism	HelpText	4	3
+12	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Communications / Command and Control	HelpText	5	3
+13	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Logistics	HelpText	6	3
+14	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Medical	HelpText	7	3
+15	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Operational Effects / Operational Skills	HelpText	1	2
+16	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Readiness / Alert Posture	HelpText	2	2
+17	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Planning / Intellegince / Targeting	HelpText	3	2
+18	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Training / Professionalism	HelpText	4	2
+19	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Communications / Command and Control	HelpText	5	2
+20	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Self-Sustainment Logistics	HelpText	6	2
+21	2019-08-28 18:49:19.853158+00	2019-08-28 18:49:19.853158+00	Medical	HelpText	7	2
 \.
 
 
@@ -1231,749 +1231,749 @@ COPY public.socat_category_question (id, category_id, question_id) FROM stdin;
 --
 
 COPY public.socat_item (id, created, updated, item_order, item_weight, item, question_id) FROM stdin;
-1	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Conduct communication in an unsecure environment, susceptible to intrusion, jamming, or collection.	1
-2	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Conduct limited secure communications on critical systems only at the operational level or above.	1
-3	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Conduct communications in a secure environment at all levels.	1
-4	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Interoperable with allied standards and tactics, techniques, and procedures (current_timestamp,current_timestamp,TTPs).	1
+1	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Conduct communication in an unsecure environment, susceptible to intrusion, jamming, or collection.	1
+2	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Conduct limited secure communications on critical systems only at the operational level or above.	1
+3	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Conduct communications in a secure environment at all levels.	1
+4	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Interoperable with allied standards and tactics, techniques, and procedures (current_timestamp,current_timestamp,TTPs).	1
 5	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	1
 6	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	1
-7	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	PN possesses extremely limited optics and night vision capability.	2
-8	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	PN possesses some optics and night vision capability, but systems are not compatible with NATOSOF.	2
-9	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	PN possesses some optics and night vision capability, and some equipment is compatible with NATOSOF.	2
-10	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	PN possesses optics and night vision equipment that is completely interoperable with NATOSOF.	2
+7	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	PN possesses extremely limited optics and night vision capability.	2
+8	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	PN possesses some optics and night vision capability, but systems are not compatible with NATOSOF.	2
+9	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	PN possesses some optics and night vision capability, and some equipment is compatible with NATOSOF.	2
+10	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	PN possesses optics and night vision equipment that is completely interoperable with NATOSOF.	2
 11	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	2
 12	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	2
-13	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	PN possesses extremely limited tactical communications capability.	3
-14	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	PN possesses some tactical communications capability, but systems are not compatible with NATOSOF.	3
-15	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	PN possesses some tactical communications capability, and some equipment is compatible with NATOSOF.	3
-16	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	PN possesses  tactical communications equipment that is completely interoperable with NATOSOF.	3
+13	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	PN possesses extremely limited tactical communications capability.	3
+14	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	PN possesses some tactical communications capability, but systems are not compatible with NATOSOF.	3
+15	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	PN possesses some tactical communications capability, and some equipment is compatible with NATOSOF.	3
+16	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	PN possesses  tactical communications equipment that is completely interoperable with NATOSOF.	3
 17	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	3
 18	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	3
-19	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Very little planning conducted; most operations are conducted ad hoc, placing NATOSOF at extreme risk in combined operations. 	4
-20	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Conducts limited, ineffective planning, resulting in excessive risk to NATOSOF during combined operations. 	4
-21	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Conducts planning, but lacks key information to allow for combined operations with NATOSOF. 	4
-22	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Conducts planning in a manner that supports operating in a combined environment with NATOSOF. 	4
+19	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Very little planning conducted; most operations are conducted ad hoc, placing NATOSOF at extreme risk in combined operations. 	4
+20	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Conducts limited, ineffective planning, resulting in excessive risk to NATOSOF during combined operations. 	4
+21	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Conducts planning, but lacks key information to allow for combined operations with NATOSOF. 	4
+22	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Conducts planning in a manner that supports operating in a combined environment with NATOSOF. 	4
 23	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	4
 24	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	4
-25	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	PN TTPs do not exist, placing NATOSOF at unacceptable risk during most aspects of combined operations. 	5
-26	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	PN TTPs are inadequate, placing NATOSOF at unacceptable risk during some aspects of combined operations. 	5
-27	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	PN TTPs are adequate, placing NATOSOF at acceptable risk during most aspects of combined operations. 	5
-28	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	PN TTPs are completely compatible, placing NATOSOF at an acceptable risk during all aspects of combined operations. 	5
+25	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	PN TTPs do not exist, placing NATOSOF at unacceptable risk during most aspects of combined operations. 	5
+26	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	PN TTPs are inadequate, placing NATOSOF at unacceptable risk during some aspects of combined operations. 	5
+27	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	PN TTPs are adequate, placing NATOSOF at acceptable risk during most aspects of combined operations. 	5
+28	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	PN TTPs are completely compatible, placing NATOSOF at an acceptable risk during all aspects of combined operations. 	5
 29	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	5
 30	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	5
-31	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Not capable. 	6
-32	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Limited capability and is not compatible. 	6
-33	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Limited capability and is compatible. 	6
-34	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Can provide adequate logistic support. 	6
+31	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Not capable. 	6
+32	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Limited capability and is not compatible. 	6
+33	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Limited capability and is compatible. 	6
+34	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Can provide adequate logistic support. 	6
 35	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	6
 36	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	6
-37	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No equipment. 	7
-38	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Outdated equipment. 	7
-39	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Limited current equipment. 	7
-40	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Adequate current equipment. 	7
+37	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No equipment. 	7
+38	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Outdated equipment. 	7
+39	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Limited current equipment. 	7
+40	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Adequate current equipment. 	7
 41	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	7
 42	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	7
-43	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Almost no ability to rapidly deploy reaction forces. 	8
-44	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Limited ability to rapidly deploy reaction forces. 	8
-45	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Can generally deploy reaction forces, but gaps exist. 	8
-46	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Can adequately deploy reaction forces within their borders.	8
+43	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Almost no ability to rapidly deploy reaction forces. 	8
+44	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Limited ability to rapidly deploy reaction forces. 	8
+45	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Can generally deploy reaction forces, but gaps exist. 	8
+46	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Can adequately deploy reaction forces within their borders.	8
 47	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	8
 48	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	8
-49	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No I&W capability. 	9
-50	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Minimal I&W planning and monitoring; low likelihood that PN will anticipate crises. 	9
-51	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Limited I&W planning and monitoring; PN likely to anticipate only major events. 	9
-52	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Adequate I&W planning and monitoring; PN likely to receive adequate warning of events that could lead to crisis.	9
+49	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No I&W capability. 	9
+50	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Minimal I&W planning and monitoring; low likelihood that PN will anticipate crises. 	9
+51	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Limited I&W planning and monitoring; PN likely to anticipate only major events. 	9
+52	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Adequate I&W planning and monitoring; PN likely to receive adequate warning of events that could lead to crisis.	9
 53	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	9
 54	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	9
-55	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No capability. 	10
-56	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Minimal planning and monitoring; low likelihood that PN will be able to protect. 	10
-57	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Limited planning and monitoring; PN likely to anticipate only major attacks. 	10
-58	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Adequate planning and monitoring; PN likely to receive adequate warning of events that could lead to attacks. 	10
+55	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No capability. 	10
+56	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Minimal planning and monitoring; low likelihood that PN will be able to protect. 	10
+57	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Limited planning and monitoring; PN likely to anticipate only major attacks. 	10
+58	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Adequate planning and monitoring; PN likely to receive adequate warning of events that could lead to attacks. 	10
 59	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	10
-187	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Unit is combat ineffective. 	32
+187	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Unit is combat ineffective. 	32
 60	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	10
-61	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No control measures and monitoring are established, VEOs routinely have easy access to weapons. 	11
-62	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Minimal control measures and monitoring established, VEOs routinely have easy access to weapons. 	11
-63	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Limited Minimal control measures and monitoring established, VEOs have limited access to weapons. 	11
-64	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Adequate control measures and monitoring exists; and VEOs have difficult access to weapons. 	11
+61	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No control measures and monitoring are established, VEOs routinely have easy access to weapons. 	11
+62	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Minimal control measures and monitoring established, VEOs routinely have easy access to weapons. 	11
+63	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Limited Minimal control measures and monitoring established, VEOs have limited access to weapons. 	11
+64	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Adequate control measures and monitoring exists; and VEOs have difficult access to weapons. 	11
 65	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	11
 66	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	11
-67	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Rarely demonstrate or comply. 	12
-68	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Occasionally demonstrate and comply. 	12
-69	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Generally demonstrate and comply, but gaps exist. 	12
-70	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Consistently demonstrate and comply. 	12
+67	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Rarely demonstrate or comply. 	12
+68	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Occasionally demonstrate and comply. 	12
+69	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Generally demonstrate and comply, but gaps exist. 	12
+70	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Consistently demonstrate and comply. 	12
 71	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	12
 72	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	12
-73	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Unit has failed vetting process due to Human Rights issues. 	13
-74	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Unit has pending Human Rights issues, but has not been submitted for vetting process. 	13
-75	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Unit has no current Human Rights issues, and has passed recent vetting process. 	13
-76	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Unit has no current Human Rights issues, and has consistently passed vetting process. 	13
+73	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Unit has failed vetting process due to Human Rights issues. 	13
+74	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Unit has pending Human Rights issues, but has not been submitted for vetting process. 	13
+75	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Unit has no current Human Rights issues, and has passed recent vetting process. 	13
+76	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Unit has no current Human Rights issues, and has consistently passed vetting process. 	13
 77	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	13
 78	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	13
-79	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Policies and processes for reporting suspected violations do not exist and no accountability for suspected violations is evident. 	14
-80	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Policies and processes for reporting suspected violations exist but are not adhered to by security forces.	14
-81	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Policies and processes for reporting suspected violations exist and are generally sufficient and adhered to. 	14
-82	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Policies and processes exist for reporting suspected violations and reported abuses are investigated and adjudicated IAW internationally accepted standards. 	14
+79	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Policies and processes for reporting suspected violations do not exist and no accountability for suspected violations is evident. 	14
+80	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Policies and processes for reporting suspected violations exist but are not adhered to by security forces.	14
+81	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Policies and processes for reporting suspected violations exist and are generally sufficient and adhered to. 	14
+82	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Policies and processes exist for reporting suspected violations and reported abuses are investigated and adjudicated IAW internationally accepted standards. 	14
 83	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	14
 84	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	14
-85	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No HR training is conducted. 	15
-86	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Very little HR training is conducted. 	15
-87	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	A moderate amount of HR training is conducted, with limited effectiveness. 	15
-88	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	An adequate amount of HR training is conducted and PN has an effective HR training program. 	15
+85	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No HR training is conducted. 	15
+86	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Very little HR training is conducted. 	15
+87	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	A moderate amount of HR training is conducted, with limited effectiveness. 	15
+88	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	An adequate amount of HR training is conducted and PN has an effective HR training program. 	15
 89	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	15
 90	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	15
-91	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Vast majority of local population is openly unsupportive. 	16
-92	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Majority of local population is unsupportive, but not overtly.	16
-93	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Majority of local population is supportive, but not overtly.	16
-94	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Majority of local population is overly supportive. 	16
+91	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Vast majority of local population is openly unsupportive. 	16
+92	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Majority of local population is unsupportive, but not overtly.	16
+93	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Majority of local population is supportive, but not overtly.	16
+94	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Majority of local population is overly supportive. 	16
 95	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	16
 96	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	16
-97	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No arrest authority. 	17
-98	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Has arrest authority, marginally effective due to shortfalls in the justice system. 	17
-99	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Has established arrest authority, VEO have not been effectively prosecuted in the justice system. 	17
-100	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Established arrest authority, effectively leads to VEO prosecution in the justice system. 	17
+97	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No arrest authority. 	17
+98	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Has arrest authority, marginally effective due to shortfalls in the justice system. 	17
+99	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Has established arrest authority, VEO have not been effectively prosecuted in the justice system. 	17
+100	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Established arrest authority, effectively leads to VEO prosecution in the justice system. 	17
 101	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	17
 102	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	17
-103	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Security forces are not properly trained to conduct any operations against VEOs. 	18
-104	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Security forces have minimal training to conduct operations against VEOs, and major gaps exist. 	18
-105	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Security forces are trained to conduct operations against, VEOs, but there are minor gaps. 	18
-106	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Security forces are adequately trained to conduct persistent operations against VEOs. 	18
+103	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Security forces are not properly trained to conduct any operations against VEOs. 	18
+104	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Security forces have minimal training to conduct operations against VEOs, and major gaps exist. 	18
+105	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Security forces are trained to conduct operations against, VEOs, but there are minor gaps. 	18
+106	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Security forces are adequately trained to conduct persistent operations against VEOs. 	18
 107	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	18
 108	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	18
-109	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Security forces are not properly manned to counter VEOs. 	19
-110	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Security forces have minimal manning to counter VEOs, and major gaps exist. 	19
-111	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Security forces are generally manned to counter VEOs; minor gaps exist. 	19
-112	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Security forces are adequately manned to counter VEOs. 	19
+109	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Security forces are not properly manned to counter VEOs. 	19
+110	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Security forces have minimal manning to counter VEOs, and major gaps exist. 	19
+111	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Security forces are generally manned to counter VEOs; minor gaps exist. 	19
+112	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Security forces are adequately manned to counter VEOs. 	19
 113	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	19
 114	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	19
-115	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Security forces are not adequately resourced to conduct operations against VEOs of any duration. 	20
-116	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Security forces are only resourced to conduct short-duration operations (current_timestamp,current_timestamp,less than 48 hours) against VEOs. 	20
-117	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Security forces are resourced to conduct some sustained operations against VEOs, but there are gaps. 	20
-118	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Security forces are adequately resourced to conduct persistent operations against VEOs. 	20
+115	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Security forces are not adequately resourced to conduct operations against VEOs of any duration. 	20
+116	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Security forces are only resourced to conduct short-duration operations (current_timestamp,current_timestamp,less than 48 hours) against VEOs. 	20
+117	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Security forces are resourced to conduct some sustained operations against VEOs, but there are gaps. 	20
+118	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Security forces are adequately resourced to conduct persistent operations against VEOs. 	20
 119	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	20
 120	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	20
-121	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Completely incapable. 	21
-122	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Some capability but highly inconsistent. 	21
-123	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Adequate capability. 	21
-124	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Highly capable.	21
+121	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Completely incapable. 	21
+122	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Some capability but highly inconsistent. 	21
+123	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Adequate capability. 	21
+124	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Highly capable.	21
 125	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	21
 126	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	21
-127	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Completely incapable. 	22
-128	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Some capability but highly inconsistent. 	22
-129	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Adequate capability. 	22
-130	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Highly capable.	22
+127	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Completely incapable. 	22
+128	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Some capability but highly inconsistent. 	22
+129	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Adequate capability. 	22
+130	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Highly capable.	22
 131	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	22
 132	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	22
-133	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Completely incapable. 	23
-134	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Some capability but highly inconsistent. 	23
-135	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Adequate capability. 	23
-136	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Highly capable.	23
+133	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Completely incapable. 	23
+134	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Some capability but highly inconsistent. 	23
+135	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Adequate capability. 	23
+136	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Highly capable.	23
 137	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	23
 138	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	23
-139	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Completely incapable. 	24
-140	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Some capability but highly inconsistent. 	24
-141	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Adequate capability. 	24
-142	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Highly capable.	24
+139	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Completely incapable. 	24
+140	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Some capability but highly inconsistent. 	24
+141	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Adequate capability. 	24
+142	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Highly capable.	24
 143	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	24
 144	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	24
-145	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Does not properly plan or employ a fixing effect; no operational success. 	25
-146	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Inconsistently plans for or employs a fixing effect with very limited operational success.	25
-147	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Usually plans for or employs a fixing effect with moderate success. 	25
-148	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Can successfully plan and conduct a fixing operation. 	25
+145	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Does not properly plan or employ a fixing effect; no operational success. 	25
+146	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Inconsistently plans for or employs a fixing effect with very limited operational success.	25
+147	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Usually plans for or employs a fixing effect with moderate success. 	25
+148	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Can successfully plan and conduct a fixing operation. 	25
 149	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	25
 150	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	25
-151	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Does not properly plan or employ a finishing effect; no operational success. 	26
-152	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Inconsistently plans for or employs a finishing effect with very limited operational success.	26
-153	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Usually plans for or employs a finishing effect with moderate success. 	26
-154	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Can successfully plan and conduct a finishing operation. 	26
+151	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Does not properly plan or employ a finishing effect; no operational success. 	26
+152	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Inconsistently plans for or employs a finishing effect with very limited operational success.	26
+153	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Usually plans for or employs a finishing effect with moderate success. 	26
+154	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Can successfully plan and conduct a finishing operation. 	26
 155	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	26
 156	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	26
-157	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Incapable. 	27
-158	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Some capability but highly inconsistent. 	27
-159	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Adequate capability. 	27
-160	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Highly capable.	27
+157	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Incapable. 	27
+158	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Some capability but highly inconsistent. 	27
+159	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Adequate capability. 	27
+160	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Highly capable.	27
 161	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	27
 162	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	27
-163	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Incapable. 	28
-164	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Some capability but highly inconsistent. 	28
-165	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Adequate capability. 	28
-166	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Highly capable.	28
+163	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Incapable. 	28
+164	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Some capability but highly inconsistent. 	28
+165	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Adequate capability. 	28
+166	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Highly capable.	28
 167	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	28
 168	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	28
-169	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Members of the security sector have no capability or will work together. 	29
-170	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Members of the security sector are willing to work together but do not possess adequate information sharing systems or procedures to effectively share information or intelligence. 	29
-171	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Members of the security sector are willing to work together, and have basic information sharing systems and procedures, but there are gaps. 	29
-172	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Members of the security sector have the capability and will to work together and adequately share information and intelligence. 	29
+169	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Members of the security sector have no capability or will work together. 	29
+170	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Members of the security sector are willing to work together but do not possess adequate information sharing systems or procedures to effectively share information or intelligence. 	29
+171	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Members of the security sector are willing to work together, and have basic information sharing systems and procedures, but there are gaps. 	29
+172	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Members of the security sector have the capability and will to work together and adequately share information and intelligence. 	29
 173	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	29
 174	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	29
-175	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Incapable. 	30
-176	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Some capability but highly inconsistent. 	30
-177	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Adequate capability. 	30
-178	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Highly capable.	30
+175	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Incapable. 	30
+176	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Some capability but highly inconsistent. 	30
+177	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Adequate capability. 	30
+178	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Highly capable.	30
 179	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	30
 180	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	30
-181	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Consistently too late to be useful. 	31
-182	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Disseminated in a timely manner about half the time or less. 	31
-183	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Disseminated in a timely manner more than half the time. 	31
-184	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Consistently disseminated in a timely manner. 	31
+181	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Consistently too late to be useful. 	31
+182	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Disseminated in a timely manner about half the time or less. 	31
+183	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Disseminated in a timely manner more than half the time. 	31
+184	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Consistently disseminated in a timely manner. 	31
 185	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	31
 186	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	31
-188	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Unit has limited operational capability. 	32
-189	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Unit can conduct operations, but has shortcomings in some mission essential tasks. 	32
-190	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Unit is fully mission capable, across all mission essential tasks. 	32
+188	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Unit has limited operational capability. 	32
+189	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Unit can conduct operations, but has shortcomings in some mission essential tasks. 	32
+190	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Unit is fully mission capable, across all mission essential tasks. 	32
 191	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	32
 192	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	32
-193	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Does not conduct night operations. 	33
-194	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Rarely demonstrates the will or capability to conduct night operations. 	33
-195	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Usually demonstrates willingness, but conducts night operations with minor limitations/deviation. 	33
-196	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Consistently demonstrates the willingness and conducts night operations regularly. 	33
+193	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Does not conduct night operations. 	33
+194	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Rarely demonstrates the will or capability to conduct night operations. 	33
+195	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Usually demonstrates willingness, but conducts night operations with minor limitations/deviation. 	33
+196	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Consistently demonstrates the willingness and conducts night operations regularly. 	33
 197	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	33
 198	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	33
-199	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Does not have readiness cycle/alert procedures; crisis response will be ad hoc. 	34
-200	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Has a readiness cycle/alert procedure, but it is not followed. 	34
-201	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Has a readiness cycle/alert procedure, but it is not consistently followed. 	34
-202	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Has a readiness cycle/alert procedure and it is routinely followed. 	34
+199	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Does not have readiness cycle/alert procedures; crisis response will be ad hoc. 	34
+200	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Has a readiness cycle/alert procedure, but it is not followed. 	34
+201	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Has a readiness cycle/alert procedure, but it is not consistently followed. 	34
+202	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Has a readiness cycle/alert procedure and it is routinely followed. 	34
 203	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	34
 204	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	34
-205	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Does not demonstrate the will. 	38
-206	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Rarely demonstrates the will. 	38
-207	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Usually demonstrates willingness, with minor limitations/deviation. 	38
-208	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Consistently demonstrates the will. 	38
+205	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Does not demonstrate the will. 	38
+206	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Rarely demonstrates the will. 	38
+207	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Usually demonstrates willingness, with minor limitations/deviation. 	38
+208	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Consistently demonstrates the will. 	38
 209	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	38
 210	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	38
-211	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Unit is not improving or it has insurmountable issues; should have no future engagement. 	39
-212	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Unit is improving and demonstrated improved will; should have persistent engagement to improve capability. 	39
-213	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Unit is mostly capable and has demonstrated will to operate; should have episodic engagement to improve capability. 	39
-214	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Unit is fully capable and has sustained operational will; should have episodic engagement to maintain relations/interoperability. 	39
+211	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Unit is not improving or it has insurmountable issues; should have no future engagement. 	39
+212	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Unit is improving and demonstrated improved will; should have persistent engagement to improve capability. 	39
+213	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Unit is mostly capable and has demonstrated will to operate; should have episodic engagement to improve capability. 	39
+214	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Unit is fully capable and has sustained operational will; should have episodic engagement to maintain relations/interoperability. 	39
 215	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	39
 216	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	39
-217	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No procedures or guidelines exist. 	40
-218	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Limited procedures for requesting security forces assistance but not specific to HA/DR operations 	40
-219	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Procedures established for requesting security force assistance but details lacking in HA/DR response plans. 	40
-220	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Procedures established for requesting security forces in HA/DR plan. 	40
+217	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No procedures or guidelines exist. 	40
+218	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Limited procedures for requesting security forces assistance but not specific to HA/DR operations 	40
+219	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Procedures established for requesting security force assistance but details lacking in HA/DR response plans. 	40
+220	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Procedures established for requesting security forces in HA/DR plan. 	40
 221	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	40
 222	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	40
-223	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Security forces do not conduct training to support their employment during HA/DR events. 	41
-224	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Security forces conduct training, but it is sporadic and ineffective. 	41
-225	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Security forces conduct training, but are not prepared to respond. 	41
-226	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Security forces conduct training and are prepared to respond. 	41
+223	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Security forces do not conduct training to support their employment during HA/DR events. 	41
+224	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Security forces conduct training, but it is sporadic and ineffective. 	41
+225	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Security forces conduct training, but are not prepared to respond. 	41
+226	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Security forces conduct training and are prepared to respond. 	41
 227	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	41
 228	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	41
-229	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No capability. 	42
-230	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Can conduct limited HA/DR in support of localized disasters/catastrophes. 	42
-231	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Can conduct HA/DR within its own borders in response to most potential disasters/catastrophes. 	42
-232	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Can support HA/DR regionally. 	42
+229	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No capability. 	42
+230	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Can conduct limited HA/DR in support of localized disasters/catastrophes. 	42
+231	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Can conduct HA/DR within its own borders in response to most potential disasters/catastrophes. 	42
+232	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Can support HA/DR regionally. 	42
 233	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	42
 234	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	42
-235	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No capability to counter VEO exploitation during an HA/DR event. 	43
-236	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Minimal capability to counter VEO exploitation during an HA/DR event; very few assets available and little preparation. 	43
-237	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Some capability to counter VEO exploitation during an HA/DR event; some preparation and some assets available. 	43
-238	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Capable of countering VEO exploitation an HA/DR event. 	43
+235	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No capability to counter VEO exploitation during an HA/DR event. 	43
+236	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Minimal capability to counter VEO exploitation during an HA/DR event; very few assets available and little preparation. 	43
+237	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Some capability to counter VEO exploitation during an HA/DR event; some preparation and some assets available. 	43
+238	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Capable of countering VEO exploitation an HA/DR event. 	43
 239	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	43
 240	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	43
-241	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No role in enforcement. 	44
-242	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Limited role in enforcement.	44
-243	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Have a role but limited capability. 	44
-244	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Have a role and are capable.	44
+241	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No role in enforcement. 	44
+242	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Limited role in enforcement.	44
+243	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Have a role but limited capability. 	44
+244	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Have a role and are capable.	44
 245	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	44
 246	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	44
-247	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Not linked into maritime surveillance and response systems. 	45
-248	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Have limited access to maritime surveillance and response systems. 	45
-249	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Have access to maritime surveillance and response systems but for monitoring only. 	45
-250	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Fully integrated into maritime surveillance and response systems. 	45
+247	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Not linked into maritime surveillance and response systems. 	45
+248	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Have limited access to maritime surveillance and response systems. 	45
+249	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Have access to maritime surveillance and response systems but for monitoring only. 	45
+250	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Fully integrated into maritime surveillance and response systems. 	45
 251	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	45
 252	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	45
-253	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Not equipped or trained. 	46
-254	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Marginally equipped and trained. 	46
-255	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Equipped and trained, but gaps exist. 	46
-256	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Adequately equipped and trained. 	46
+253	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Not equipped or trained. 	46
+254	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Marginally equipped and trained. 	46
+255	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Equipped and trained, but gaps exist. 	46
+256	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Adequately equipped and trained. 	46
 257	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	46
 258	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	46
-259	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Incapable. 	47
-260	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Some capability but highly inconsistent. 	47
-261	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Adequate capability. 	47
-262	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Highly capable.	47
+259	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Incapable. 	47
+260	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Some capability but highly inconsistent. 	47
+261	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Adequate capability. 	47
+262	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Highly capable.	47
 263	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	47
 264	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	47
-265	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Incapable. 	48
-266	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Some capability but highly inconsistent. 	48
-267	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Adequate capability. 	48
-268	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Highly capable.	48
+265	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Incapable. 	48
+266	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Some capability but highly inconsistent. 	48
+267	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Adequate capability. 	48
+268	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Highly capable.	48
 269	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	48
 270	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	48
-271	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No will; border security forces only conduct interdiction operations as a means of self-defense. 	49
-272	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Limited will; border security forces only conduct interdiction operations when directly attacked or leader's interests are impacted. 	49
-273	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Moderate will; border security forces conduct interdiction operations, but mostly reactionary in nature. 	49
-274	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	High levels of will; border security forces are proactive in the conduct of interdiction operations. 	49
+271	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No will; border security forces only conduct interdiction operations as a means of self-defense. 	49
+272	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Limited will; border security forces only conduct interdiction operations when directly attacked or leader's interests are impacted. 	49
+273	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Moderate will; border security forces conduct interdiction operations, but mostly reactionary in nature. 	49
+274	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	High levels of will; border security forces are proactive in the conduct of interdiction operations. 	49
 275	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	49
 276	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	49
-277	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Incapable. 	50
-278	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Some capability but highly inconsistent. 	50
-279	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Adequate capability. 	50
-280	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Highly capable.	50
+277	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Incapable. 	50
+278	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Some capability but highly inconsistent. 	50
+279	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Adequate capability. 	50
+280	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Highly capable.	50
 281	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	50
 282	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	50
-283	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No controls.	51
-284	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Some controls, but not consistently enforced. 	51
-285	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Adequate controls that are usually enforced.	51
-286	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Adequate controls, routinely and consistently enforced. 	51
+283	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No controls.	51
+284	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Some controls, but not consistently enforced. 	51
+285	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Adequate controls that are usually enforced.	51
+286	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Adequate controls, routinely and consistently enforced. 	51
 287	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	51
 288	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	51
-289	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	None.	52
-290	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Limited; occasionally shares some limited information, and only with selected neighbors.	52
-291	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Some; generally shares significant information, but not consistently. 	52
-292	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Routine. 	52
+289	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	None.	52
+290	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Limited; occasionally shares some limited information, and only with selected neighbors.	52
+291	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Some; generally shares significant information, but not consistently. 	52
+292	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Routine. 	52
 293	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	52
 294	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	52
-295	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	None.	53
-296	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Some policies and procedures in place, but not effective. 	53
-297	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Policies and procedures in place, with some effectiveness. 	53
-298	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Effective policies and procedures in place, consistently executed. 	53
+295	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	None.	53
+296	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Some policies and procedures in place, but not effective. 	53
+297	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Policies and procedures in place, with some effectiveness. 	53
+298	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Effective policies and procedures in place, consistently executed. 	53
 299	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	53
 300	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	53
-301	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Very little ability; luck and trafficker mistakes are primary reasons for seizure. 	54
-302	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Some ability; accomplished through personal relationships and informal systems. 	54
-303	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Moderate ability; a formal system exists, but is rarely utilized. 	54
-304	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Adequate ability, using established systems and programs. 	54
+301	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Very little ability; luck and trafficker mistakes are primary reasons for seizure. 	54
+302	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Some ability; accomplished through personal relationships and informal systems. 	54
+303	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Moderate ability; a formal system exists, but is rarely utilized. 	54
+304	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Adequate ability, using established systems and programs. 	54
 305	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	54
 306	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	54
-307	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Very little ability to detect and/or interdict. 	55
-308	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Some ability to detect; interdiction mostly by chance or due to trafficker error. 	55
-309	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Moderate ability to detect; majority of interdiction due to proper procedures.	55
-310	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Adequate ability to detect and interdict. 	55
+307	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Very little ability to detect and/or interdict. 	55
+308	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Some ability to detect; interdiction mostly by chance or due to trafficker error. 	55
+309	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Moderate ability to detect; majority of interdiction due to proper procedures.	55
+310	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Adequate ability to detect and interdict. 	55
 311	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	55
 312	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	55
-313	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Rudimentary planning process but ad hoc and reactive in nature. 	56
-314	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Planning process conducted but not for crisis situations. 	56
-315	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Planning process in both expected and crisis situations but not for all potential events. 	56
-316	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Adequate planning process routinely conducted and exercised. 	56
+313	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Rudimentary planning process but ad hoc and reactive in nature. 	56
+314	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Planning process conducted but not for crisis situations. 	56
+315	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Planning process in both expected and crisis situations but not for all potential events. 	56
+316	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Adequate planning process routinely conducted and exercised. 	56
 317	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	56
 318	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	56
-319	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Basic capability, but significant challenges exist to conducting complex operations. 	57
-320	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Moderate capability, but challenges exist in some areas. 	57
-321	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Adequate for most but some gaps exist. 	57
-322	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Robust and redundant capability exists. 	57
+319	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Basic capability, but significant challenges exist to conducting complex operations. 	57
+320	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Moderate capability, but challenges exist in some areas. 	57
+321	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Adequate for most but some gaps exist. 	57
+322	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Robust and redundant capability exists. 	57
 323	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	57
 324	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	57
-325	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	PN does not utilize TTPs trained by NATOSOF. 	58
-326	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	PN utilizes some, but not all TTPs trained by NATOSOF. 	58
-327	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	PN utilizes all TTPs trained by NATOSOF. 	58
-328	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	PN demonstrates an ability to adapt NATO TTPs to meet their current situation, incorporating their own doctrine and lessons learned. 	58
+325	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	PN does not utilize TTPs trained by NATOSOF. 	58
+326	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	PN utilizes some, but not all TTPs trained by NATOSOF. 	58
+327	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	PN utilizes all TTPs trained by NATOSOF. 	58
+328	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	PN demonstrates an ability to adapt NATO TTPs to meet their current situation, incorporating their own doctrine and lessons learned. 	58
 329	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	58
 330	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	58
-331	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Minimal capability; routinely subject to major incidents of foreign espionage. 	59
-332	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Some capability; occasional occurrence of major incidents of foreign espionage. 	59
-333	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Moderate capability; rare instances of major incidents of foreign espionage. 	59
-334	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Adequate capability; extremely rare instances of foreign espionage on any scale. 	59
+331	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Minimal capability; routinely subject to major incidents of foreign espionage. 	59
+332	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Some capability; occasional occurrence of major incidents of foreign espionage. 	59
+333	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Moderate capability; rare instances of major incidents of foreign espionage. 	59
+334	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Adequate capability; extremely rare instances of foreign espionage on any scale. 	59
 335	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	59
 336	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	59
-337	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Minimal capability. 	60
-338	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Some capability, inconsistently utilized. 	60
-339	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Some capability, usually utilized. 	60
-340	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Adequate capability, consistently utilized. 	60
+337	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Minimal capability. 	60
+338	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Some capability, inconsistently utilized. 	60
+339	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Some capability, usually utilized. 	60
+340	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Adequate capability, consistently utilized. 	60
 341	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	60
 342	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	60
-343	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Minimal process and capability. 	61
-344	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Basic process, with major capability gaps. 	61
-345	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Adequate process, with some capability gaps. 	61
-346	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Adequate process and some capability. 	61
+343	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Minimal process and capability. 	61
+344	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Basic process, with major capability gaps. 	61
+345	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Adequate process, with some capability gaps. 	61
+346	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Adequate process and some capability. 	61
 347	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	61
 348	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	61
-349	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No organic vehicles, must receive ad-hoc external support for all mobility and transportation tasks. 	62
-350	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Limited organic vehicles, requires augmentation from ad-hoc external units to conduct operations. 	62
-351	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Adequate amount and type of organic vehicles, but requires augmentation from DESIGNATED (current_timestamp,current_timestamp,pre-planned support/ not ad-hoc) external support units. 	62
-352	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Has adequate amount and type of organic vehicles, and routinely operates with organic assets (current_timestamp,current_timestamp,may still require occasional augmentation for special missions).	62
+349	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No organic vehicles, must receive ad-hoc external support for all mobility and transportation tasks. 	62
+350	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Limited organic vehicles, requires augmentation from ad-hoc external units to conduct operations. 	62
+351	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Adequate amount and type of organic vehicles, but requires augmentation from DESIGNATED (current_timestamp,current_timestamp,pre-planned support/ not ad-hoc) external support units. 	62
+352	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Has adequate amount and type of organic vehicles, and routinely operates with organic assets (current_timestamp,current_timestamp,may still require occasional augmentation for special missions).	62
 353	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	62
 354	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	62
-355	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No ability. 	64
-356	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Has limited capability; needs extensive augmentation to conduct Combat Casualty Care. 	64
-357	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Has moderate capability with organic medics, but needs augmentation to conduct effective Combat Casualty Care. 	64
-358	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Fully capable of conducting organic Combat Casualty Care. 	64
+355	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No ability. 	64
+356	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Has limited capability; needs extensive augmentation to conduct Combat Casualty Care. 	64
+357	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Has moderate capability with organic medics, but needs augmentation to conduct effective Combat Casualty Care. 	64
+358	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Fully capable of conducting organic Combat Casualty Care. 	64
 359	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	64
 360	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	64
-361	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No ability. 	65
-362	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Has limited capability; needs extensive augmentation to conduct effective casualty evacuation. 	65
-363	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Has moderate capability with organic assets, but needs augmentation to conduct effective casualty evacuation planning and coordination. 	65
-364	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Fully capable of conducting effective casualty evacuation. 	65
+361	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No ability. 	65
+362	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Has limited capability; needs extensive augmentation to conduct effective casualty evacuation. 	65
+363	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Has moderate capability with organic assets, but needs augmentation to conduct effective casualty evacuation planning and coordination. 	65
+364	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Fully capable of conducting effective casualty evacuation. 	65
 365	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	65
 366	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	65
-367	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No ability. 	66
-368	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Limited ability, and only within a given service or specific unit. 	66
-369	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Moderate ability, but still limited between the different services. 	66
-370	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Fully capable of communicating from the tactical to operational level and across the services. 	66
+367	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No ability. 	66
+368	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Limited ability, and only within a given service or specific unit. 	66
+369	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Moderate ability, but still limited between the different services. 	66
+370	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Fully capable of communicating from the tactical to operational level and across the services. 	66
 371	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	66
 372	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	66
-373	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	NCOs are not empowered to take a leadership role; all decisions are made by officers. 	67
-374	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	NCOs are occasionally empowered to take a leadership role, but it is ad hoc and/or personality-based. 	67
-375	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	NCOs are generally empowered to take a leadership role, but there are gaps. 	67
-376	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	NCOs are consistently empowered to take a leadership role and it is institutionalized. 	67
+373	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	NCOs are not empowered to take a leadership role; all decisions are made by officers. 	67
+374	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	NCOs are occasionally empowered to take a leadership role, but it is ad hoc and/or personality-based. 	67
+375	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	NCOs are generally empowered to take a leadership role, but there are gaps. 	67
+376	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	NCOs are consistently empowered to take a leadership role and it is institutionalized. 	67
 377	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	67
 378	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	67
-379	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No capability to communicate with MPAs during MIOs. 	68
-380	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Has no direct communication capability with MPAs during MIOs, but can relay information through external networks. 	68
-381	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Can communicate with MPA during MIOs on at least one system (current_timestamp,current_timestamp,HF, UHF, VHF). 	68
-382	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Can communicate with MPA during MIOs via full spectrum (current_timestamp,current_timestamp,HF, UHF, VHF) systems. 	68
+379	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No capability to communicate with MPAs during MIOs. 	68
+380	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Has no direct communication capability with MPAs during MIOs, but can relay information through external networks. 	68
+381	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Can communicate with MPA during MIOs on at least one system (current_timestamp,current_timestamp,HF, UHF, VHF). 	68
+382	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Can communicate with MPA during MIOs via full spectrum (current_timestamp,current_timestamp,HF, UHF, VHF) systems. 	68
 383	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	68
 384	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	68
-385	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	No capability to communicate with surface assets during MIOs. 	69
-386	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Has no direct communication capability with surface assets during MIOs, but can relay information through external networks. 	69
-387	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Can communicate with surface assets during MIOs on at least one system (current_timestamp,current_timestamp,HF, UHF, or VHF). 	69
-388	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Can communicate with surface assets during MIOs via full spectrum (current_timestamp,current_timestamp,HF, UHF, or VHF) systems. 	69
+385	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	No capability to communicate with surface assets during MIOs. 	69
+386	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Has no direct communication capability with surface assets during MIOs, but can relay information through external networks. 	69
+387	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Can communicate with surface assets during MIOs on at least one system (current_timestamp,current_timestamp,HF, UHF, or VHF). 	69
+388	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Can communicate with surface assets during MIOs via full spectrum (current_timestamp,current_timestamp,HF, UHF, or VHF) systems. 	69
 389	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	69
 390	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	69
-391	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Does not conduct long-range MIOs, but it is part of unit's mission. 	70
-392	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Conducts long-range MIOs, but does not conduct at-sea resupply. 	70
-393	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Conducts long-range MIOs, and rarely conducts at-sea resupply. 	70
-394	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Conducts long-range MIOs, and routinely conducts at-sea resupply. 	70
+391	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Does not conduct long-range MIOs, but it is part of unit's mission. 	70
+392	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Conducts long-range MIOs, but does not conduct at-sea resupply. 	70
+393	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Conducts long-range MIOs, and rarely conducts at-sea resupply. 	70
+394	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Conducts long-range MIOs, and routinely conducts at-sea resupply. 	70
 395	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	70
 396	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	70
-397	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Unit has no capability to conduct OTB amphibious operations. 	71
-398	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Unit is partially capable of conducting OTB amphibious operations, but major gaps exist. 	71
-399	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Unit is fully capable of conducting OTB amphibious operations, but rarely conducts it. 	71
-400	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Unit is capable of conducting OTB amphibious operations, and routinely conducts it. 	71
+397	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Unit has no capability to conduct OTB amphibious operations. 	71
+398	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Unit is partially capable of conducting OTB amphibious operations, but major gaps exist. 	71
+399	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Unit is fully capable of conducting OTB amphibious operations, but rarely conducts it. 	71
+400	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Unit is capable of conducting OTB amphibious operations, and routinely conducts it. 	71
 401	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	71
 402	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	71
-403	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Unit has no capability to operate maritime interdiction craft. 	72
-404	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Unit is partially capable of operating maritime interdiction craft, but major gaps exist. 	72
-405	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Unit is fully capable of operating maritime interdiction craft, but rarely conducts it. 	72
-406	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Unit is fully capable of operating maritime interdiction craft, and routinely conducts it. 	72
+403	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Unit has no capability to operate maritime interdiction craft. 	72
+404	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Unit is partially capable of operating maritime interdiction craft, but major gaps exist. 	72
+405	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Unit is fully capable of operating maritime interdiction craft, but rarely conducts it. 	72
+406	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Unit is fully capable of operating maritime interdiction craft, and routinely conducts it. 	72
 407	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	72
 408	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	72
-409	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	4	Unit has no capability to maintain maritime interdiction craft. 	73
-410	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	3	Unit is partially capable of maintaining maritime interdiction craft: Operational Readiness Rate below 40%.	73
-411	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	2	Unit is fully capable of maintaining maritime interdiction craft: Operational Readiness Rate between 40 and 80% (current_timestamp,current_timestamp,inclusive).	73
-412	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	1	Unit is fully capable of maintaining maritime interdiction craft: Operational Readiness Rate above 80%.	73
+409	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	a	1	Unit has no capability to maintain maritime interdiction craft. 	73
+410	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	b	2	Unit is partially capable of maintaining maritime interdiction craft: Operational Readiness Rate below 40%.	73
+411	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	c	3	Unit is fully capable of maintaining maritime interdiction craft: Operational Readiness Rate between 40 and 80% (current_timestamp,current_timestamp,inclusive).	73
+412	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	d	4	Unit is fully capable of maintaining maritime interdiction craft: Operational Readiness Rate above 80%.	73
 413	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	e	0	Not observed or otherwise unable to make an accurate determination.	73
 414	2019-08-28 18:49:19.693841+00	2019-08-28 18:49:19.693841+00	f	0	Not applicable or part of the unit's mission.	73
-415	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Partner Nation and U.S. forces have strained relationships; they conduct no exchanges or training together.	2010
-416	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Partner Nation and U.S. forces have strained relationships; although there are some bilateral discussions, and the U.S conducts less than three military engagements per year. 	2010
-417	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Partner Nation and U.S forces have cordial relationships; there are regular bilateral discussions (formal and informal), and the U.S conducts between three and 10 military engagements per year. 	2010
-418	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Partner Nation and U.S forces have positive relationships; there are regular bilateral discussions (formal and informal), and the U.S conducts more than 10 military engagements per year. 	2010
+415	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Partner Nation and U.S. forces have strained relationships; they conduct no exchanges or training together.	2010
+416	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Partner Nation and U.S. forces have strained relationships; although there are some bilateral discussions, and the U.S conducts less than three military engagements per year. 	2010
+417	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Partner Nation and U.S forces have cordial relationships; there are regular bilateral discussions (formal and informal), and the U.S conducts between three and 10 military engagements per year. 	2010
+418	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Partner Nation and U.S forces have positive relationships; there are regular bilateral discussions (formal and informal), and the U.S conducts more than 10 military engagements per year. 	2010
 419	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2010
 420	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2010
-421	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Cooperative relationship; substantive exchanges; significant security  cooperation (including weapons systems and professional training); and established foreign access/basing agreements.	2021
-422	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Cordial relationship; substantive exchanges; some security cooperation (including weapons systems or professional training); and increasing foreign forces access to military bases.	2021
-423	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Cordial relationship; some mil-mil exchanges; no significant security cooperation (including no weapons systems, but may include sporadic professional training); and limited access for foreign troops.	2021
-424	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Limited or no contact; no substantive exchanges; no significant security cooperation or technical cooperation. 	2021
+421	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Cooperative relationship; substantive exchanges; significant security  cooperation (including weapons systems and professional training); and established foreign access/basing agreements.	2021
+422	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Cordial relationship; substantive exchanges; some security cooperation (including weapons systems or professional training); and increasing foreign forces access to military bases.	2021
+423	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Cordial relationship; some mil-mil exchanges; no significant security cooperation (including no weapons systems, but may include sporadic professional training); and limited access for foreign troops.	2021
+424	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Limited or no contact; no substantive exchanges; no significant security cooperation or technical cooperation. 	2021
 425	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2021
 426	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2021
-472	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Partner Nation cooperates with both the United States; and countries in the region regarding CT.	2090
-427	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Cooperative relationship; substantive exchanges; significant security  cooperation (including weapons systems and professional training); and established foreign access/basing agreements.	2022
-428	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Cordial relationship; substantive exchanges; some security cooperation (including weapons systems or professional training); and increasing foreign forces access to military bases.	2022
-429	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Cordial relationship; some mil-mil exchanges; no significant security cooperation (including no weapons systems, but may include sporadic professional training); and limited access for foreign troops.	2022
-430	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Limited or no contact; no substantive exchanges; no significant security cooperation or technical cooperation. 	2022
+472	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Partner Nation cooperates with both the United States; and countries in the region regarding CT.	2090
+427	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Cooperative relationship; substantive exchanges; significant security  cooperation (including weapons systems and professional training); and established foreign access/basing agreements.	2022
+428	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Cordial relationship; substantive exchanges; some security cooperation (including weapons systems or professional training); and increasing foreign forces access to military bases.	2022
+429	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Cordial relationship; some mil-mil exchanges; no significant security cooperation (including no weapons systems, but may include sporadic professional training); and limited access for foreign troops.	2022
+430	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Limited or no contact; no substantive exchanges; no significant security cooperation or technical cooperation. 	2022
 431	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2022
 432	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2022
-433	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Cooperative relationship; substantive exchanges; significant security  cooperation (including weapons systems and professional training); and established foreign access/basing agreements.	2023
-434	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Cordial relationship; substantive exchanges; some security cooperation (including weapons systems or professional training); and increasing foreign forces access to military bases.	2023
-435	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Cordial relationship; some mil-mil exchanges; no significant security cooperation (including no weapons systems, but may include sporadic professional training); and limited access for foreign troops.	2023
-436	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Limited or no contact; no substantive exchanges; no significant security cooperation or technical cooperation. 	2023
+433	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Cooperative relationship; substantive exchanges; significant security  cooperation (including weapons systems and professional training); and established foreign access/basing agreements.	2023
+434	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Cordial relationship; substantive exchanges; some security cooperation (including weapons systems or professional training); and increasing foreign forces access to military bases.	2023
+435	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Cordial relationship; some mil-mil exchanges; no significant security cooperation (including no weapons systems, but may include sporadic professional training); and limited access for foreign troops.	2023
+436	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Limited or no contact; no substantive exchanges; no significant security cooperation or technical cooperation. 	2023
 437	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2023
 438	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2023
-439	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Cooperative relationship; substantive exchanges; significant security  cooperation (including weapons systems and professional training); and established foreign access/basing agreements.	2024
-440	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Cordial relationship; substantive exchanges; some security cooperation (including weapons systems or professional training); and increasing foreign forces access to military bases.	2024
-441	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Cordial relationship; some mil-mil exchanges; no significant security cooperation (including no weapons systems, but may include sporadic professional training); and limited access for foreign troops.	2024
-442	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Limited or no contact; no substantive exchanges; no significant security cooperation or technical cooperation. 	2024
+439	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Cooperative relationship; substantive exchanges; significant security  cooperation (including weapons systems and professional training); and established foreign access/basing agreements.	2024
+440	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Cordial relationship; substantive exchanges; some security cooperation (including weapons systems or professional training); and increasing foreign forces access to military bases.	2024
+441	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Cordial relationship; some mil-mil exchanges; no significant security cooperation (including no weapons systems, but may include sporadic professional training); and limited access for foreign troops.	2024
+442	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Limited or no contact; no substantive exchanges; no significant security cooperation or technical cooperation. 	2024
 443	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2024
 444	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2024
-445	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Partner Nation has no Counter Threat Finance capability. 	2050
-446	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Partner Nation is developing a Counter Threat Finance capability. 	2050
-447	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Partner Nation has a Counter Threat Finance capability; but it is not consistently used against CTO/VEO targets. 	2050
-448	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Partner Nation has a Counter Threat Finance capability; and it is routinely used against CTO/VEO targets.	2050
+445	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Partner Nation has no Counter Threat Finance capability. 	2050
+446	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Partner Nation is developing a Counter Threat Finance capability. 	2050
+447	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Partner Nation has a Counter Threat Finance capability; but it is not consistently used against CTO/VEO targets. 	2050
+448	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Partner Nation has a Counter Threat Finance capability; and it is routinely used against CTO/VEO targets.	2050
 449	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2050
 450	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2050
-451	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Partner Nation does not have a national level policy and framework to support CT. 	2060
-452	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Partner Nation has a national level policy and framework; but rarely follows established policy and procedures. 	2060
-453	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Partner Nation has a national level policy and framework; but does not consistently follow it.	2060
-454	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Partner Nation has a national level policy and framework; and effectively follows it. 	2060
+451	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Partner Nation does not have a national level policy and framework to support CT. 	2060
+452	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Partner Nation has a national level policy and framework; but rarely follows established policy and procedures. 	2060
+453	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Partner Nation has a national level policy and framework; but does not consistently follow it.	2060
+454	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Partner Nation has a national level policy and framework; and effectively follows it. 	2060
 455	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2060
 456	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2060
-457	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Partner Nation does not have a national level strategy and policy to support CT operations.	2070
-458	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Partner Nation has a national level CT strategy and policy; but rarely follows established policy and procedures. 4	2070
-459	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Partner Nation has a national level CT strategy and policy; but does not consistently follow established policy and procedures	2070
-460	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Partner Nation has a national level policy and framework; and effectively follows it. 	2070
+457	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Partner Nation does not have a national level strategy and policy to support CT operations.	2070
+458	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Partner Nation has a national level CT strategy and policy; but rarely follows established policy and procedures. 4	2070
+459	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Partner Nation has a national level CT strategy and policy; but does not consistently follow established policy and procedures	2070
+460	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Partner Nation has a national level policy and framework; and effectively follows it. 	2070
 461	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2070
 462	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2070
-463	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Partner Nation does not have national plans that include roles and missions for security forces to conduct CT operations. 	2080
-464	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Partner Nation has national plans that include roles and missions for security forces to conduct CT operations; but rarely follows these plans. 	2080
-465	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Partner Nation has plans that include roles and missions for security forces to conduct CT operations; but does not consistently follow these plans. 	2080
-466	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Partner Nation has plans that include roles and missions for security forces to conduct CT operations; and effectively follows these plans. 	2080
+463	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Partner Nation does not have national plans that include roles and missions for security forces to conduct CT operations. 	2080
+464	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Partner Nation has national plans that include roles and missions for security forces to conduct CT operations; but rarely follows these plans. 	2080
+465	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Partner Nation has plans that include roles and missions for security forces to conduct CT operations; but does not consistently follow these plans. 	2080
+466	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Partner Nation has plans that include roles and missions for security forces to conduct CT operations; and effectively follows these plans. 	2080
 467	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2080
 468	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2080
-469	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Partner Nation does not cooperate with the United States; and does not cooperate with countries in the region regarding CT. 	2090
-470	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Partner Nation does not cooperate with the United States regarding CT; but does cooperate with countries in the region. 	2090
-471	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Partner Nation does not cooperate with countries in the region regarding CT; but does cooperate with the United States. 	2090
-626	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Covertly supports VEOs/TCOs.	3013
+469	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Partner Nation does not cooperate with the United States; and does not cooperate with countries in the region regarding CT. 	2090
+470	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Partner Nation does not cooperate with the United States regarding CT; but does cooperate with countries in the region. 	2090
+471	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Partner Nation does not cooperate with countries in the region regarding CT; but does cooperate with the United States. 	2090
+626	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Covertly supports VEOs/TCOs.	3013
 473	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2090
 474	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2090
-475	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Partner Nation does not have national level plans for crisis situations. National level planning and response will be ad hoc during a crisis. 	2110
-476	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Partner Nation has national level plans for crisis situations; but the plans do not define roles and missions for security forces.	2110
-477	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Partner Nation has national level plans for crisis situations; and the plans define roles and missions for security forces during some phases of the crisis. 	2110
-478	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Partner Nation has national level plans for crisis situations; and the plans clearly define roles and missions for security forces throughout all phases of the crisis. 	2110
+475	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Partner Nation does not have national level plans for crisis situations. National level planning and response will be ad hoc during a crisis. 	2110
+476	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Partner Nation has national level plans for crisis situations; but the plans do not define roles and missions for security forces.	2110
+477	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Partner Nation has national level plans for crisis situations; and the plans define roles and missions for security forces during some phases of the crisis. 	2110
+478	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Partner Nation has national level plans for crisis situations; and the plans clearly define roles and missions for security forces throughout all phases of the crisis. 	2110
 479	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2110
 480	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2110
-481	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Partner Nation does not have designated QRF; and security forces are incapable of rapidly responding during a crisis situation. 	2120
-482	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Partner Nation does not have designated QRF; but some security forces have a limited ability to rapidly respond to crisis. 	2120
-483	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Partner Nation has designated QRF; but QRF are not trained or prepared to respond. 	2120
-484	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Partner Nation has designated QRF; and QRF are trained and prepared to respond to crisis situations. 	2120
+481	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Partner Nation does not have designated QRF; and security forces are incapable of rapidly responding during a crisis situation. 	2120
+482	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Partner Nation does not have designated QRF; but some security forces have a limited ability to rapidly respond to crisis. 	2120
+483	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Partner Nation has designated QRF; but QRF are not trained or prepared to respond. 	2120
+484	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Partner Nation has designated QRF; and QRF are trained and prepared to respond to crisis situations. 	2120
 485	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2120
 486	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2120
-487	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Some government services provided but only to selected members of the population. 	2130
-488	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	All government services provided to selected members of the local population. 	2130
-489	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Some government services provided to local population without regard to race, class, or income. 	2130
-490	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	All government services provided to local population without regard to race, class, or income. 	2130
+487	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Some government services provided but only to selected members of the population. 	2130
+488	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	All government services provided to selected members of the local population. 	2130
+489	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Some government services provided to local population without regard to race, class, or income. 	2130
+490	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	All government services provided to local population without regard to race, class, or income. 	2130
 491	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2130
 492	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2130
-493	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Partner Nation has few plans and has had no / very little effect on unemployment. 	2140
-494	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Partner Nation has taken some action but with little effect on unemployment. 	2140
-495	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Partner Nation has successfully implemented measures in some areas, but pockets of high unemployment in areas vulnerable to VEO/TCO influence exist. 	2140
-496	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Partner Nation has successfully implemented measures to reduce unemployment rates throughout the country. 	2140
+493	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Partner Nation has few plans and has had no / very little effect on unemployment. 	2140
+494	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Partner Nation has taken some action but with little effect on unemployment. 	2140
+495	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Partner Nation has successfully implemented measures in some areas, but pockets of high unemployment in areas vulnerable to VEO/TCO influence exist. 	2140
+496	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Partner Nation has successfully implemented measures to reduce unemployment rates throughout the country. 	2140
 497	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2140
 498	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2140
-499	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	There are no means to formally or informally address grievances. 	2150
-500	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	There are only informal means to address grievances and they are inadequate. 	2150
-501	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	There are both formal and informal means to address grievances, but the process is inadequate. 	2150
-502	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Yes.	2150
+499	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	There are no means to formally or informally address grievances. 	2150
+500	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	There are only informal means to address grievances and they are inadequate. 	2150
+501	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	There are both formal and informal means to address grievances, but the process is inadequate. 	2150
+502	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Yes.	2150
 503	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2150
 504	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2150
-505	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	PN does not conduct any CVE activities. 	2160
-506	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	PN rarely conducts CVE activities.	2160
-507	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	PN conducts episodic or limited CVE activities; but it is not integrated into national plans. 	2160
-508	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	PN conducts regular CVE activities; and it is integrated into national plans. 	2160
+505	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	PN does not conduct any CVE activities. 	2160
+506	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	PN rarely conducts CVE activities.	2160
+507	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	PN conducts episodic or limited CVE activities; but it is not integrated into national plans. 	2160
+508	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	PN conducts regular CVE activities; and it is integrated into national plans. 	2160
 509	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2160
 510	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2160
-511	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	PN does not conduct any CVE programs. 	2170
-512	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	PN conducts some CVE programs; but it does not target areas where VEO are active. 	2170
-513	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	PN conducts limited or episodic CVE programs; and it targets areas where VEO are active.	2170
-514	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	PN actively conducts CVE programs; and it targets areas where VEO are active. 	2170
+511	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	PN does not conduct any CVE programs. 	2170
+512	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	PN conducts some CVE programs; but it does not target areas where VEO are active. 	2170
+513	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	PN conducts limited or episodic CVE programs; and it targets areas where VEO are active.	2170
+514	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	PN actively conducts CVE programs; and it targets areas where VEO are active. 	2170
 515	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2170
 516	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2170
-517	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	PN does not have, and is not developing a "Rewards for Justice Program" against VEO. 	2180
-518	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	PN is developing a "Rewards for Justice Program" that targets VEO. 	2180
-519	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	PN has an active "Rewards for Justice Program" that targets VEO; but it is not well integrated into national plans. 	2180
-520	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	PN has an active "Rewards for Justice Program" that targets VEO; and it is integrated into national plans. 	2180
+517	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	PN does not have, and is not developing a "Rewards for Justice Program" against VEO. 	2180
+518	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	PN is developing a "Rewards for Justice Program" that targets VEO. 	2180
+519	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	PN has an active "Rewards for Justice Program" that targets VEO; but it is not well integrated into national plans. 	2180
+520	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	PN has an active "Rewards for Justice Program" that targets VEO; and it is integrated into national plans. 	2180
 521	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2180
 522	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2180
-523	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Partner Nation security forces do not conduct any operations to disrupt VEO and TCO freedom of movement. 	2190
-524	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Partner Nation security forces rarely conduct operations to disrupt VEO and TCO; and the operations are not part of national CT/CTOC plans. 	2190
-525	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Partner Nation security forces conduct episodic or limited operations to disrupt VEO and TCO; and the operations are part of national CT/CTOC plans. 	2190
-526	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Partner Nation security forces actively conduct interdiction operations against VEO and TCO; and it is part of National CT/CTOC Plans. 	2190
+523	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Partner Nation security forces do not conduct any operations to disrupt VEO and TCO freedom of movement. 	2190
+524	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Partner Nation security forces rarely conduct operations to disrupt VEO and TCO; and the operations are not part of national CT/CTOC plans. 	2190
+525	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Partner Nation security forces conduct episodic or limited operations to disrupt VEO and TCO; and the operations are part of national CT/CTOC plans. 	2190
+526	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Partner Nation security forces actively conduct interdiction operations against VEO and TCO; and it is part of National CT/CTOC Plans. 	2190
 527	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2190
 528	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2190
-529	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Partner Nation security forces do not have control of the borders. 	2200
-530	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Partner Nation security forces have control of some border areas but other areas remain under-controlled (with few or no operations along the border); and there is little or no information sharing with neighboring country border security forces.	2200
-531	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Partner Nation security forces control borders (conduct operations along the border); but do not routinely share information with neighboring country border security forces. 	2200
-532	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Partner Nation security forces are proactive in securing borders (conducting operations along the border); and routinely share information with neighboring country border security forces. 	2200
+529	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Partner Nation security forces do not have control of the borders. 	2200
+530	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Partner Nation security forces have control of some border areas but other areas remain under-controlled (with few or no operations along the border); and there is little or no information sharing with neighboring country border security forces.	2200
+531	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Partner Nation security forces control borders (conduct operations along the border); but do not routinely share information with neighboring country border security forces. 	2200
+532	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Partner Nation security forces are proactive in securing borders (conducting operations along the border); and routinely share information with neighboring country border security forces. 	2200
 533	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2200
 534	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2200
-535	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	There are no polices, procedures, in place to control borders/POEs. 	2210
-536	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Partner Nation has polices and procedures in place to provide effective border/port of entry (POE) control; but rarely follows them. 	2210
-537	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Partner Nation has polices and procedures in place to provide effective border/port of entry (POE) control; but does not consistently follows them. 	2210
-538	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Partner Nation has polices and procedures in place to provide effective border/port of entry (POE) control; and effectively follows them. 	2210
+535	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	There are no polices, procedures, in place to control borders/POEs. 	2210
+536	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Partner Nation has polices and procedures in place to provide effective border/port of entry (POE) control; but rarely follows them. 	2210
+537	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Partner Nation has polices and procedures in place to provide effective border/port of entry (POE) control; but does not consistently follows them. 	2210
+538	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Partner Nation has polices and procedures in place to provide effective border/port of entry (POE) control; and effectively follows them. 	2210
 539	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2210
 540	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2210
-541	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Partner Nation has no budget, only ad hoc spending. 	2220
-542	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Partner Nation Defense Budget is decreasing. 	2220
-543	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Partner Nation Defense Budget is constant (neither increasing nor decreasing).	2220
-544	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Partner Nation Defense Budget is increasing. 	2220
+541	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Partner Nation has no budget, only ad hoc spending. 	2220
+542	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Partner Nation Defense Budget is decreasing. 	2220
+543	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Partner Nation Defense Budget is constant (neither increasing nor decreasing).	2220
+544	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Partner Nation Defense Budget is increasing. 	2220
 545	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2220
 546	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2220
-547	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Partner Nation's defense budget and authorizations DO NOT  provide sufficient funding to procure and maintain equipment and supplies needed to conduct CT operations. 	2240
-548	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Partner Nation's defense budget and authorizations provide resources to procure and maintain a limited amount of equipment and supplies to conduct CT operations. 	2240
-549	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Partner Nation's defense budget and authorizations provide resources to procure and maintain the equipment and supplies needed, but can only support limited CT operations. 	2240
-550	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Partner Nation's defense budget and authorization provides sufficient funding to procure and maintain equipment and supplies needed to conduct CT operations. 	2240
+547	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Partner Nation's defense budget and authorizations DO NOT  provide sufficient funding to procure and maintain equipment and supplies needed to conduct CT operations. 	2240
+548	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Partner Nation's defense budget and authorizations provide resources to procure and maintain a limited amount of equipment and supplies to conduct CT operations. 	2240
+549	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Partner Nation's defense budget and authorizations provide resources to procure and maintain the equipment and supplies needed, but can only support limited CT operations. 	2240
+550	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Partner Nation's defense budget and authorization provides sufficient funding to procure and maintain equipment and supplies needed to conduct CT operations. 	2240
 551	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2240
 552	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2240
-553	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Partner Nation MOD  has no policies or procedures to procure supplies & equipment; and does not sustain CT operations.	2250
-554	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Partner Nation MOD has policies and procedures in place; but DOES NOT provide enough supplies & equipment to sustain CT operations. 	2250
-555	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Partner Nation MOD has policies and procedures in place; and provides enough supplies & equipment to sustain limited CT operations. 	2250
-556	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Partner Nation MOD has policies and procedures in place; and routinely provides enough supplies & equipment to sustain full spectrum CT operations. 	2250
+553	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Partner Nation MOD  has no policies or procedures to procure supplies & equipment; and does not sustain CT operations.	2250
+554	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Partner Nation MOD has policies and procedures in place; but DOES NOT provide enough supplies & equipment to sustain CT operations. 	2250
+555	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Partner Nation MOD has policies and procedures in place; and provides enough supplies & equipment to sustain limited CT operations. 	2250
+556	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Partner Nation MOD has policies and procedures in place; and routinely provides enough supplies & equipment to sustain full spectrum CT operations. 	2250
 557	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2250
 558	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2250
-559	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	4	Partner Nation MOD does not provide any funding cover recruiting, basic training and pay for CT forces' personnel. 	2260
-560	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	3	Partner Nation MOD funding is limited and only partially covers recruiting and pay for CT forces' personnel; basic CT training is not funded. 	2260
-561	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	2	Partner Nation MOD funding is limited; it covers recruiting and pay for CT forces' personnel; and partially covers basic CT training. 	2260
-562	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	1	Partner Nation MOD funding is sufficient to cover recruiting, pay, and basic training for CT forces' personnel. 	2260
+559	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	a	1	Partner Nation MOD does not provide any funding cover recruiting, basic training and pay for CT forces' personnel. 	2260
+560	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	b	2	Partner Nation MOD funding is limited and only partially covers recruiting and pay for CT forces' personnel; basic CT training is not funded. 	2260
+561	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	c	3	Partner Nation MOD funding is limited; it covers recruiting and pay for CT forces' personnel; and partially covers basic CT training. 	2260
+562	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	d	4	Partner Nation MOD funding is sufficient to cover recruiting, pay, and basic training for CT forces' personnel. 	2260
 563	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	e	0	Not observed or otherwise unable to make an accurate determination. 	2260
 564	2019-08-28 18:49:19.744915+00	2019-08-28 18:49:19.744915+00	f	0	Not applicable or part of the unit's mission.	2260
-565	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	4	PN has no CT or CTOC doctrine. 	3001
-566	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	3	PN is formulating doctrine. 	3001
-567	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	2	PN has doctrine; but it is not consistently enforced. 	3001
-568	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	1	PN has doctrine; and it is routinely followed.	3001
+565	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	PN has no CT or CTOC doctrine. 	3001
+566	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	PN is formulating doctrine. 	3001
+567	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	PN has doctrine; but it is not consistently enforced. 	3001
+568	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	PN has doctrine; and it is routinely followed.	3001
 569	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3001
-570	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	PN security forces DO NOT have an established planning process; and rarely conduct crisis action planning. 	3002
-571	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	PN security forces have an established operational level planning process; but it is rarely followed. 	3002
-572	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	PN security forces have an established operational level planning process; but it is not consistently followed for deliberate or crisis action planning. 	3002
-573	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	PN security forces have an established operational level planning process; and it routinely conduct deliberate and crisis action planning. 	3002
+570	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	PN security forces DO NOT have an established planning process; and rarely conduct crisis action planning. 	3002
+571	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	PN security forces have an established operational level planning process; but it is rarely followed. 	3002
+572	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	PN security forces have an established operational level planning process; but it is not consistently followed for deliberate or crisis action planning. 	3002
+573	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	PN security forces have an established operational level planning process; and it routinely conduct deliberate and crisis action planning. 	3002
 574	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3002
-575	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	PN has no operational level CT plans; and does not conduct operations to counter VEOs.	3003
-576	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	PN has operational level plans; but rarely conducts operations to counter VEOs.	3003
-577	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	PN does not have operational level plans; but conducts some operations to counter VEOs. 	3003
-578	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	PN has operational level CT plans; and regularly conducts operations to counter VEOs. 	3003
+575	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	PN has no operational level CT plans; and does not conduct operations to counter VEOs.	3003
+576	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	PN has operational level plans; but rarely conducts operations to counter VEOs.	3003
+577	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	PN does not have operational level plans; but conducts some operations to counter VEOs. 	3003
+578	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	PN has operational level CT plans; and regularly conducts operations to counter VEOs. 	3003
 579	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3003
-580	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	PN has no operational level CTOC plans; and does not conduct operations to counter TCOs.	3004
-581	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	PN has operational level CTOC plans; but rarely conducts operations to counter TCOs. 	3004
-582	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	PN does not have operational level CTOC plans; but conducts some operations to counter TCOs. 	3004
-583	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	PN has operational level CTOC plans; and regularly conducts operations to counter TCOs. 	3004
+580	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	PN has no operational level CTOC plans; and does not conduct operations to counter TCOs.	3004
+581	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	PN has operational level CTOC plans; but rarely conducts operations to counter TCOs. 	3004
+582	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	PN does not have operational level CTOC plans; but conducts some operations to counter TCOs. 	3004
+583	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	PN has operational level CTOC plans; and regularly conducts operations to counter TCOs. 	3004
 584	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3004
-585	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	PN security forces have basic C2 systems in place; but significant challenges exist to conducting complex operations. 	3005
-586	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	PN security forces have basic C2 systems in place; but challenges exist in some areas.	3005
-587	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	PN security forces have C2 systems in place; and it is adequate during most situations (current_timestamp,current_timestamp,some gaps in process or equipment may still exist).	3005
-588	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	PN security forces have C2 systems in place; and it is capable of supporting full spectrum operations (current_timestamp,current_timestamp,redundant capability exists).	3005
+585	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	PN security forces have basic C2 systems in place; but significant challenges exist to conducting complex operations. 	3005
+586	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	PN security forces have basic C2 systems in place; but challenges exist in some areas.	3005
+587	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	PN security forces have C2 systems in place; and it is adequate during most situations (current_timestamp,current_timestamp,some gaps in process or equipment may still exist).	3005
+588	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	PN security forces have C2 systems in place; and it is capable of supporting full spectrum operations (current_timestamp,current_timestamp,redundant capability exists).	3005
 589	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3005
-590	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	PN security forces DO NOT have any ability to communicate at the tactical-to-operational level in a joint non-permissive environment. 	3006
-591	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	PN security forces have a limited capability of communicating from the tactical to operational level; but only within a service or specific unit. 	3006
-592	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	PN security forces have a moderate capability of communicating from the tactical to operational level; but still limited between the different services. 	3006
-593	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	PN security forces are fully capable of communicating from the tactical to operational level; and across all the services. 	3006
+590	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	PN security forces DO NOT have any ability to communicate at the tactical-to-operational level in a joint non-permissive environment. 	3006
+591	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	PN security forces have a limited capability of communicating from the tactical to operational level; but only within a service or specific unit. 	3006
+592	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	PN security forces have a moderate capability of communicating from the tactical to operational level; but still limited between the different services. 	3006
+593	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	PN security forces are fully capable of communicating from the tactical to operational level; and across all the services. 	3006
 594	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3006
-595	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	PN does not have a training management program.	3007
-596	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	PN has a limited training program (current_timestamp,current_timestamp,training is mostly done at the service entry level).	3007
-597	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	PN has a training management program; but it is not consistently followed. 	3007
-598	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	PN has a training management program; and routinely follows it. 	3007
+595	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	PN does not have a training management program.	3007
+596	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	PN has a limited training program (current_timestamp,current_timestamp,training is mostly done at the service entry level).	3007
+597	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	PN has a training management program; but it is not consistently followed. 	3007
+598	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	PN has a training management program; and routinely follows it. 	3007
 599	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3007
-600	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	PN has no QRF; and security forces are not capable of rapidly responding during a crisis. 	3008
-601	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	PN has no QRF; but some forces have limited ability to respond during a crisis. 	3008
-602	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	PN has a QRF; but the QRF is not adequately trained to respond. 	3008
-603	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	PN has a QRF; and the QRF is adequately trained to respond to crisis situations. 	3008
+600	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	PN has no QRF; and security forces are not capable of rapidly responding during a crisis. 	3008
+601	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	PN has no QRF; but some forces have limited ability to respond during a crisis. 	3008
+602	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	PN has a QRF; but the QRF is not adequately trained to respond. 	3008
+603	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	PN has a QRF; and the QRF is adequately trained to respond to crisis situations. 	3008
 604	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3008
-605	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Almost no ability to deploy reaction forces. 	3009
-606	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Limited ability to rapidly deploy reaction forces. 	3009
-607	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Can generally deploy reaction forces; but gaps exist. 	3009
-608	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Can deploy reaction forces within their borders. 	3009
+605	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Almost no ability to deploy reaction forces. 	3009
+606	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Limited ability to rapidly deploy reaction forces. 	3009
+607	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Can generally deploy reaction forces; but gaps exist. 	3009
+608	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Can deploy reaction forces within their borders. 	3009
 609	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3009
-610	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	PN has no Joint structure and no procedures to coordinate and command joint operations; joint operations are ad hoc during crisis situations. 	3010
-611	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	PN has no Joint structure but has procedures to coordinate and command joint operations; however the procedures are rarely followed. 	3010
-612	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	PN has a Joint structure and/or has procedures to coordinate joint operations; but the procedures are not consistently followed or command authority is not clear. 	3010
-613	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	PN has a Joint structure to coordinate and command joint operations; and the joint procedures are effectively followed. 	3010
+610	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	PN has no Joint structure and no procedures to coordinate and command joint operations; joint operations are ad hoc during crisis situations. 	3010
+611	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	PN has no Joint structure but has procedures to coordinate and command joint operations; however the procedures are rarely followed. 	3010
+612	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	PN has a Joint structure and/or has procedures to coordinate joint operations; but the procedures are not consistently followed or command authority is not clear. 	3010
+613	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	PN has a Joint structure to coordinate and command joint operations; and the joint procedures are effectively followed. 	3010
 614	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3010
-615	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	No will, forces only take actions against security threats as a means of self-defense. 	3011
-616	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Limited will, forces only take action against security threats when directly attacked or leader's interests are impacted. 	3011
-617	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Moderate will, forces take action against security threats, but most are reactionary in nature. 	3011
-618	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	High levels of will, forces are proactive in their pursuit of maintaining security. 	3011
+615	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	No will, forces only take actions against security threats as a means of self-defense. 	3011
+616	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Limited will, forces only take action against security threats when directly attacked or leader's interests are impacted. 	3011
+617	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Moderate will, forces take action against security threats, but most are reactionary in nature. 	3011
+618	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	High levels of will, forces are proactive in their pursuit of maintaining security. 	3011
 619	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3011
-620	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Openly defiant. 	3012
-621	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Mostly ambivalent, with episodic acts of defiance. 	3012
-622	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Slightly supportive, with occasional acts of defiance. 	3012
-623	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Majority supportive/compliant. 	3012
+620	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Openly defiant. 	3012
+621	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Mostly ambivalent, with episodic acts of defiance. 	3012
+622	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Slightly supportive, with occasional acts of defiance. 	3012
+623	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Majority supportive/compliant. 	3012
 624	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3012
-625	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Overtly supports and allows VEOs/TCOs to openly operate within the area. 	3013
-627	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Majority of the local population does not support VEOs/TCOs. 	3013
-628	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Overtly reports and takes action against suspected VEOs/TCOs.	3013
+625	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Overtly supports and allows VEOs/TCOs to openly operate within the area. 	3013
+627	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Majority of the local population does not support VEOs/TCOs. 	3013
+628	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Overtly reports and takes action against suspected VEOs/TCOs.	3013
 629	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3013
-630	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	No procedures or guidelines exist. 	3014
-631	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Limited procedures for requesting security forces assistance but not specific to HA/DR operations. 	3014
-632	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Procedures established for requesting security force assistance but details lacking in HA/DR response plans. 	3014
-633	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Procedures established for requesting security forces in HA/DR plan.	3014
+630	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	No procedures or guidelines exist. 	3014
+631	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Limited procedures for requesting security forces assistance but not specific to HA/DR operations. 	3014
+632	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Procedures established for requesting security force assistance but details lacking in HA/DR response plans. 	3014
+633	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Procedures established for requesting security forces in HA/DR plan.	3014
 634	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3014
-635	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	No capability. 	3015
-636	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Can conduct limited HA/DR in support of localized disasters/catastrophes.	3015
-637	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Can conduct HA/DR within its own borders in response to most potential disasters/catastrophes. 	3015
-638	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Can support HA/DR regionally. 	3015
+635	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	No capability. 	3015
+636	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Can conduct limited HA/DR in support of localized disasters/catastrophes.	3015
+637	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Can conduct HA/DR within its own borders in response to most potential disasters/catastrophes. 	3015
+638	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Can support HA/DR regionally. 	3015
 639	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3015
-640	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	No capability to counter VEO exploitation during an HA/DR event. 	3016
-641	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Minimal capability to counter VEO exploitation during an HA/DR event; very few assets available and little preparation. 	3016
-642	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Some capability to counter VEO exploitation during an HA/DR event; some preparation and some assets available. 	3016
-643	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Capable of countering VEO exploitation during an HA/DR event. 	3016
+640	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	No capability to counter VEO exploitation during an HA/DR event. 	3016
+641	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Minimal capability to counter VEO exploitation during an HA/DR event; very few assets available and little preparation. 	3016
+642	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Some capability to counter VEO exploitation during an HA/DR event; some preparation and some assets available. 	3016
+643	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Capable of countering VEO exploitation during an HA/DR event. 	3016
 644	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3016
-645	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Rarely demonstrate or comply. 	3017
-646	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Occasionally demonstrate and comply. 	3017
-647	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Generally demonstrate and comply; but gaps exist. 	3017
-648	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Consistently demonstrate and comply. 	3017
+645	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Rarely demonstrate or comply. 	3017
+646	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Occasionally demonstrate and comply. 	3017
+647	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Generally demonstrate and comply; but gaps exist. 	3017
+648	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Consistently demonstrate and comply. 	3017
 649	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3017
-650	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Policies and processes for reporting suspected violations do not exist and no accountability for suspected violations is evident. 	3018
-651	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Policies and processes for reporting suspected violations exist but are not adhered to by security forces. 	3018
-652	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Policies and processes for reporting suspected violations exist and are generally sufficient and adhered to. 	3018
-653	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Policies and processes exist for reporting suspected violations and reported abuses are investigated and adjudicated IAW internationally accepted standards. 	3018
+650	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Policies and processes for reporting suspected violations do not exist and no accountability for suspected violations is evident. 	3018
+651	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Policies and processes for reporting suspected violations exist but are not adhered to by security forces. 	3018
+652	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Policies and processes for reporting suspected violations exist and are generally sufficient and adhered to. 	3018
+653	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Policies and processes exist for reporting suspected violations and reported abuses are investigated and adjudicated IAW internationally accepted standards. 	3018
 654	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3018
-655	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	No HR training is conducted. 	3019
-656	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Very little HR training is conducted. 	3019
-657	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	A moderate amount of HR training is conducted, with limited effectiveness. 	3019
-658	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	An adequate amount of HR training is conducted and HN has an effective HR training program. 	3019
+655	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	No HR training is conducted. 	3019
+656	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Very little HR training is conducted. 	3019
+657	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	A moderate amount of HR training is conducted, with limited effectiveness. 	3019
+658	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	An adequate amount of HR training is conducted and HN has an effective HR training program. 	3019
 659	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3019
-660	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Vast majority of local population is openly unsupportive. 	3020
-661	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Majority of local population is unsupportive, but not overtly. 	3020
-662	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Majority of local population is supportive, but overtly. 	3020
-663	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Majority of local population is overtly supportive. 	3020
+660	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Vast majority of local population is openly unsupportive. 	3020
+661	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Majority of local population is unsupportive, but not overtly. 	3020
+662	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Majority of local population is supportive, but overtly. 	3020
+663	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Majority of local population is overtly supportive. 	3020
 664	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3020
-665	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Incapable.	3021
-666	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Some capability but highly inconsistent. 	3021
-667	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Adequate capability. 	3021
-668	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Highly capable. 	3021
+665	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Incapable.	3021
+666	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Some capability but highly inconsistent. 	3021
+667	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Adequate capability. 	3021
+668	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Highly capable. 	3021
 669	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3021
-670	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Incapable.	3022
-671	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Some capability but highly inconsistent. 	3022
-672	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Adequate capability. 	3022
-673	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Highly capable. 	3022
+670	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Incapable.	3022
+671	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Some capability but highly inconsistent. 	3022
+672	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Adequate capability. 	3022
+673	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Highly capable. 	3022
 674	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3022
-675	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Incapable.	3023
-676	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Some capability but highly inconsistent. 	3023
-677	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Adequate capability. 	3023
-678	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Highly capable. 	3023
+675	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Incapable.	3023
+676	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Some capability but highly inconsistent. 	3023
+677	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Adequate capability. 	3023
+678	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Highly capable. 	3023
 679	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3023
-680	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Incapable.	3024
-681	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Some capability but highly inconsistent. 	3024
-682	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Adequate capability. 	3024
-683	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Highly capable. 	3024
+680	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Incapable.	3024
+681	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Some capability but highly inconsistent. 	3024
+682	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Adequate capability. 	3024
+683	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Highly capable. 	3024
 684	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3024
-685	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Incapable.	3025
-686	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Some capability but highly inconsistent. 	3025
-687	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Adequate capability. 	3025
-688	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Highly capable. 	3025
+685	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Incapable.	3025
+686	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Some capability but highly inconsistent. 	3025
+687	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Adequate capability. 	3025
+688	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Highly capable. 	3025
 689	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3025
-690	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Members of the security sector have no capability or will to work together. 	3026
-691	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Members of the security sector are willing to work together; but do not possess adequate information sharing systems or procedures to effectively share information or intelligence. 	3026
-692	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Members of the security sector are willing to work together; and have basic information sharing systems and procedures, but there are gaps. 	3026
-693	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Members of the security force have the capability; and will to work together and share information and intelligence. 	3026
+690	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Members of the security sector have no capability or will to work together. 	3026
+691	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Members of the security sector are willing to work together; but do not possess adequate information sharing systems or procedures to effectively share information or intelligence. 	3026
+692	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Members of the security sector are willing to work together; and have basic information sharing systems and procedures, but there are gaps. 	3026
+693	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Members of the security force have the capability; and will to work together and share information and intelligence. 	3026
 694	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3026
-695	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Incapable.	3027
-696	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Some capability but highly inconsistent. 	3027
-697	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Adequate capability. 	3027
-698	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Highly capable. 	3027
+695	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Incapable.	3027
+696	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Some capability but highly inconsistent. 	3027
+697	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Adequate capability. 	3027
+698	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Highly capable. 	3027
 699	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3027
-700	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Consistently too late to be useful. 	3028
-701	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Disseminated in a timely manner < 50% of the time. 	3028
-702	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Disseminated in a timely manner >50% of the time. 	3028
-703	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Consistently disseminated in a timely manner. 	3028
+700	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Consistently too late to be useful. 	3028
+701	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Disseminated in a timely manner < 50% of the time. 	3028
+702	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Disseminated in a timely manner >50% of the time. 	3028
+703	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Consistently disseminated in a timely manner. 	3028
 704	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3028
-705	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Incapable.	3029
-706	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Some capability but highly inconsistent. 	3029
-707	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Adequate capability. 	3029
-708	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Highly capable. 	3029
+705	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Incapable.	3029
+706	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Some capability but highly inconsistent. 	3029
+707	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Adequate capability. 	3029
+708	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Highly capable. 	3029
 709	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3029
-710	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Partner Nation CT forces DO NOT have sufficient resources to conduct any CT operations. 	3030
-711	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Partner Nation CT forces have limited amounts of equipment and supplies; that can only support limited CT operations. 	3030
-712	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Partner Nation CT forces have limited amounts of equipment and supplies; that can only support episodic CT operations. 	3030
-713	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Partner Nation CT forces have sufficient resources (current_timestamp,current_timestamp,equipment and supplies) to conduct persistent CT operations. 	3030
+710	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Partner Nation CT forces DO NOT have sufficient resources to conduct any CT operations. 	3030
+711	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Partner Nation CT forces have limited amounts of equipment and supplies; that can only support limited CT operations. 	3030
+712	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Partner Nation CT forces have limited amounts of equipment and supplies; that can only support episodic CT operations. 	3030
+713	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Partner Nation CT forces have sufficient resources (current_timestamp,current_timestamp,equipment and supplies) to conduct persistent CT operations. 	3030
 714	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3030
-715	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Partner Nation security forces DO NOT have sufficient resources to conduct any CTOC operations. 	3031
-716	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Partner Nation security forces have limited amounts of equipment and supplies; that can only support limited CTOC operations. 	3031
-717	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Partner Nation security forces have limited amounts of equipment and supplies; that can only support episodic CTOC operations. 	3031
-718	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Partner Nation security forces have sufficient resources (current_timestamp,current_timestamp,equipment and supplies) to conduct persistent CTOC operations. 	3031
+715	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Partner Nation security forces DO NOT have sufficient resources to conduct any CTOC operations. 	3031
+716	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Partner Nation security forces have limited amounts of equipment and supplies; that can only support limited CTOC operations. 	3031
+717	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Partner Nation security forces have limited amounts of equipment and supplies; that can only support episodic CTOC operations. 	3031
+718	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Partner Nation security forces have sufficient resources (current_timestamp,current_timestamp,equipment and supplies) to conduct persistent CTOC operations. 	3031
 719	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3031
-720	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Partner Nation does not have policies to manage the requisition and repair of equipment. 	3032
-721	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Partner Nation has policies to manage the requisition and repair of equipment; but rarely follows it. 	3032
-722	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Partner Nation has policies to manage the requisition and repair of equipment; but does not consistently follows it. 	3032
-723	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Partner Nation has policies to manage the requisition and repair of equipment; and effectively follows it. 	3032
+720	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Partner Nation does not have policies to manage the requisition and repair of equipment. 	3032
+721	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Partner Nation has policies to manage the requisition and repair of equipment; but rarely follows it. 	3032
+722	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Partner Nation has policies to manage the requisition and repair of equipment; but does not consistently follows it. 	3032
+723	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Partner Nation has policies to manage the requisition and repair of equipment; and effectively follows it. 	3032
 724	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3032
-725	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Security forces are not adequately resourced to conduct operations against VEOs/TCOs of any duration. 	3033
-726	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Security forces are only resourced to conduct short-term operations (current_timestamp,current_timestamp,less than 48 hours) against VEOs/TCOs. 	3033
-727	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Security forces are resourced to conduct some sustained operations against VEOs/TCOs, but there are some gaps. 	3033
-728	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Security forces are adequately resourced to conduct persistent operations against VEOs/TCOs.	3033
+725	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Security forces are not adequately resourced to conduct operations against VEOs/TCOs of any duration. 	3033
+726	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Security forces are only resourced to conduct short-term operations (current_timestamp,current_timestamp,less than 48 hours) against VEOs/TCOs. 	3033
+727	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Security forces are resourced to conduct some sustained operations against VEOs/TCOs, but there are some gaps. 	3033
+728	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Security forces are adequately resourced to conduct persistent operations against VEOs/TCOs.	3033
 729	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3033
-730	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Not properly manned. 	3034
-731	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Have minimal manning to counter VEOs/TCOs. 	3034
-732	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Generally manned to counter VEOs/TCOs; but minor gaps exist. 	3034
-733	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Adequately manned to counter VEOs/TCOs. 	3034
+730	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Not properly manned. 	3034
+731	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Have minimal manning to counter VEOs/TCOs. 	3034
+732	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Generally manned to counter VEOs/TCOs; but minor gaps exist. 	3034
+733	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Adequately manned to counter VEOs/TCOs. 	3034
 734	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3034
-735	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Partner Nation security forces have no organic medical resources. 	3035
-736	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Partner Nation security forces have limited amounts of medical equipment and supplies; is not sufficient to support operations. 	3035
-737	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Partner Nation security forces have limited amounts of equipment and supplies; that can only support episodic operations. 	3035
-738	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Partner Nation security forces have sufficient medical resources (current_timestamp,current_timestamp,equipment and supplies) to support persistent operations. 	3035
+735	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Partner Nation security forces have no organic medical resources. 	3035
+736	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Partner Nation security forces have limited amounts of medical equipment and supplies; is not sufficient to support operations. 	3035
+737	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Partner Nation security forces have limited amounts of equipment and supplies; that can only support episodic operations. 	3035
+738	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Partner Nation security forces have sufficient medical resources (current_timestamp,current_timestamp,equipment and supplies) to support persistent operations. 	3035
 739	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3035
-740	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	0	Partner Nation security forces have no organic medical personnel. 	3036
-741	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	0	Partner Nation security forces have limited medical personnel (current_timestamp,current_timestamp,medics) at the unit level; but they lack operational capabilities (current_timestamp,current_timestamp,aide station, hospital) to support operational level planning and operations. 	3036
-742	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	0	Partner Nation security forces have adequate medical personnel (current_timestamp,current_timestamp,medics) at the unit level; but they lack operational capabilities (current_timestamp,current_timestamp,aide station, hospital) to support operational level planning and operations. 	3036
-743	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	0	Partner Nation security forces have adequate medical personnel (current_timestamp,current_timestamp,medics) at the unit level; and enough operational capabilities (current_timestamp,current_timestamp,aide station, hospital) to support operational level planning and operations. 	3036
+740	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	a	1	Partner Nation security forces have no organic medical personnel. 	3036
+741	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	b	2	Partner Nation security forces have limited medical personnel (current_timestamp,current_timestamp,medics) at the unit level; but they lack operational capabilities (current_timestamp,current_timestamp,aide station, hospital) to support operational level planning and operations. 	3036
+742	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	c	3	Partner Nation security forces have adequate medical personnel (current_timestamp,current_timestamp,medics) at the unit level; but they lack operational capabilities (current_timestamp,current_timestamp,aide station, hospital) to support operational level planning and operations. 	3036
+743	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	d	4	Partner Nation security forces have adequate medical personnel (current_timestamp,current_timestamp,medics) at the unit level; and enough operational capabilities (current_timestamp,current_timestamp,aide station, hospital) to support operational level planning and operations. 	3036
 744	2019-08-28 18:49:19.806828+00	2019-08-28 18:49:19.806828+00	e	0	Not observed or otherwise unable to make an accurate determination. 	3036
 \.
 
