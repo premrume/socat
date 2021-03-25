@@ -8,5 +8,5 @@ psycopg2-binary==2.7.7
 pygal==2.4.0
 python-monkey-business==1.0.0
 pytz==2019.1
-PyYAML==5.1
+PyYAML==5.4
 six==1.12.0
